@@ -1,0 +1,1001 @@
+Device ID,IoT Layer,Request Type,Data Size (KB),Processing Time (ms),Security Threat Type,Attack Severity (0-10),Blockchain Transaction Time (ms),Consensus Mechanism,Energy Consumption (mJ),Threat Mitigated
+D0001,Application,Data Transmission,552,42,DDoS,1,142,PBFT,1.26,1
+D0002,Application,Data Transmission,704,24,DDoS,1,197,PoS,0.66,0
+D0003,Device,Authentication,485,35,Eavesdropping,7,272,PoS,0.92,0
+D0004,Application,Data Transmission,965,21,Eavesdropping,1,187,PoS,1.88,0
+D0005,Device,Encrypted Data Transfer,653,17,Tampering,1,155,PoS,1.8,1
+D0006,Application,Smart Contract Execution,265,9,Tampering,2,112,PoS,1.81,0
+D0007,Application,Data Transmission,425,24,Tampering,5,252,PoA,1.49,1
+D0008,Application,Authentication,940,19,Eavesdropping,9,230,PoS,1.47,1
+D0009,Network,Encrypted Data Transfer,1337,15,Eavesdropping,4,201,PBFT,1.1,1
+D0010,Application,Smart Contract Execution,704,42,Eavesdropping,10,159,PoS,1.89,1
+D0011,Network,Data Transmission,71,9,Man-in-the-Middle,1,266,PoS,1.02,1
+D0012,Application,Smart Contract Execution,1164,14,Tampering,2,173,PBFT,0.86,1
+D0013,Device,Smart Contract Execution,870,27,Eavesdropping,1,205,PoW,1.05,1
+D0014,Application,Authentication,904,8,DDoS,10,114,PoS,0.58,0
+D0015,Application,Encrypted Data Transfer,73,45,DDoS,2,102,PoS,1.66,1
+D0016,Device,Authentication,1395,6,DDoS,7,182,PoA,1.23,1
+D0017,Application,Data Transmission,1252,13,Man-in-the-Middle,3,162,PoS,1.67,1
+D0018,Application,Encrypted Data Transfer,877,11,Man-in-the-Middle,4,261,PoS,1.36,0
+D0019,Network,Encrypted Data Transfer,1027,29,Man-in-the-Middle,5,256,PoW,0.78,1
+D0020,Device,Encrypted Data Transfer,364,25,Man-in-the-Middle,4,256,PoA,1.48,1
+D0021,Network,Smart Contract Execution,1226,5,Man-in-the-Middle,1,113,PoA,1.39,0
+D0022,Network,Encrypted Data Transfer,1349,46,DDoS,7,110,PoA,0.79,0
+D0023,Application,Authentication,321,46,Unauthorized Access,7,144,PBFT,0.75,1
+D0024,Device,Data Transmission,336,44,Eavesdropping,9,156,PoA,1.49,1
+D0025,Application,Encrypted Data Transfer,147,12,Man-in-the-Middle,8,123,PoA,1.11,1
+D0026,Application,Smart Contract Execution,500,34,Eavesdropping,9,267,PoA,1.26,1
+D0027,Network,Smart Contract Execution,736,36,Tampering,6,105,PoW,1.81,1
+D0028,Network,Smart Contract Execution,1158,10,DDoS,2,193,PBFT,1.91,1
+D0029,Device,Encrypted Data Transfer,434,35,Tampering,5,278,PBFT,1.64,0
+D0030,Device,Data Transmission,966,23,Unauthorized Access,9,299,PoA,0.57,1
+D0031,Network,Smart Contract Execution,835,15,Tampering,6,116,PoW,0.67,1
+D0032,Application,Encrypted Data Transfer,505,22,DDoS,5,266,PBFT,1.2,0
+D0033,Network,Encrypted Data Transfer,1385,35,Eavesdropping,3,211,PoA,0.66,0
+D0034,Application,Encrypted Data Transfer,462,21,Tampering,9,295,PoS,1.9,0
+D0035,Device,Encrypted Data Transfer,994,10,Unauthorized Access,7,294,PoW,1.43,1
+D0036,Application,Smart Contract Execution,630,44,Eavesdropping,4,286,PoW,1.65,1
+D0037,Device,Data Transmission,1170,31,Unauthorized Access,5,181,PBFT,1.3,1
+D0038,Network,Data Transmission,532,23,Eavesdropping,3,110,PoS,1.95,0
+D0039,Network,Data Transmission,429,31,Man-in-the-Middle,10,107,PoA,1.07,1
+D0040,Device,Smart Contract Execution,1198,46,DDoS,6,105,PBFT,1.31,0
+D0041,Network,Authentication,343,6,Man-in-the-Middle,3,138,PBFT,1.82,1
+D0042,Device,Data Transmission,1132,19,Tampering,2,218,PoW,2.0,1
+D0043,Device,Smart Contract Execution,137,22,Man-in-the-Middle,3,200,PBFT,1.84,0
+D0044,Network,Encrypted Data Transfer,1315,14,Unauthorized Access,4,209,PoA,1.73,1
+D0045,Application,Authentication,683,36,Man-in-the-Middle,6,132,PoS,0.83,1
+D0046,Network,Data Transmission,1151,47,Tampering,3,213,PoW,1.04,1
+D0047,Application,Authentication,969,23,DDoS,10,243,PoW,1.58,1
+D0048,Network,Data Transmission,149,23,DDoS,9,116,PoA,1.07,1
+D0049,Network,Smart Contract Execution,1369,28,DDoS,5,155,PBFT,0.89,0
+D0050,Application,Encrypted Data Transfer,1466,23,Tampering,5,254,PoS,1.21,0
+D0051,Device,Smart Contract Execution,1028,42,Eavesdropping,9,248,PoW,0.98,0
+D0052,Network,Data Transmission,173,19,Man-in-the-Middle,3,113,PBFT,1.2,0
+D0053,Application,Smart Contract Execution,1264,35,Tampering,1,144,PoA,1.66,1
+D0054,Network,Smart Contract Execution,128,26,Man-in-the-Middle,10,227,PoS,1.53,0
+D0055,Device,Authentication,105,30,Tampering,5,161,PoW,0.69,1
+D0056,Application,Authentication,652,45,Unauthorized Access,4,260,PoS,1.99,0
+D0057,Device,Data Transmission,586,31,Man-in-the-Middle,8,165,PoA,1.54,0
+D0058,Device,Smart Contract Execution,894,15,Tampering,9,256,PBFT,1.8,1
+D0059,Network,Data Transmission,143,8,Eavesdropping,8,157,PBFT,0.75,1
+D0060,Application,Encrypted Data Transfer,1313,35,Unauthorized Access,5,205,PoS,1.7,0
+D0061,Application,Smart Contract Execution,1184,13,Man-in-the-Middle,10,274,PBFT,0.64,0
+D0062,Network,Smart Contract Execution,276,26,Man-in-the-Middle,7,140,PoW,1.61,0
+D0063,Application,Smart Contract Execution,869,43,Tampering,6,198,PBFT,1.88,1
+D0064,Device,Authentication,845,19,Unauthorized Access,6,208,PBFT,0.89,1
+D0065,Network,Smart Contract Execution,610,40,DDoS,3,277,PBFT,1.99,0
+D0066,Application,Encrypted Data Transfer,944,47,Man-in-the-Middle,7,290,PoA,0.59,1
+D0067,Device,Authentication,450,14,Tampering,5,223,PoW,0.82,0
+D0068,Device,Authentication,153,8,DDoS,5,287,PoW,1.8,0
+D0069,Device,Data Transmission,89,7,Eavesdropping,2,207,PBFT,1.46,1
+D0070,Application,Encrypted Data Transfer,1443,18,Unauthorized Access,4,294,PoW,0.82,1
+D0071,Network,Data Transmission,63,33,Man-in-the-Middle,3,157,PoS,1.11,1
+D0072,Application,Smart Contract Execution,581,11,Eavesdropping,2,171,PoW,0.52,1
+D0073,Network,Encrypted Data Transfer,1437,35,Man-in-the-Middle,8,241,PoS,1.49,1
+D0074,Network,Smart Contract Execution,1288,14,Unauthorized Access,1,270,PoA,0.73,1
+D0075,Network,Data Transmission,794,38,Eavesdropping,3,201,PoS,1.75,0
+D0076,Network,Encrypted Data Transfer,617,31,Unauthorized Access,10,209,PBFT,1.45,1
+D0077,Application,Data Transmission,1494,7,Man-in-the-Middle,6,283,PoA,1.08,1
+D0078,Device,Authentication,161,20,Eavesdropping,10,269,PoW,0.81,1
+D0079,Application,Encrypted Data Transfer,291,5,Unauthorized Access,1,175,PBFT,1.88,1
+D0080,Device,Smart Contract Execution,312,13,Eavesdropping,2,101,PoS,1.23,1
+D0081,Network,Encrypted Data Transfer,238,33,Man-in-the-Middle,9,220,PoW,0.54,0
+D0082,Device,Smart Contract Execution,1496,8,Tampering,5,152,PoS,1.8,1
+D0083,Device,Encrypted Data Transfer,1055,15,Tampering,3,238,PoW,1.66,0
+D0084,Device,Authentication,965,47,Eavesdropping,10,133,PBFT,1.28,0
+D0085,Device,Smart Contract Execution,861,6,Eavesdropping,8,256,PBFT,1.14,1
+D0086,Device,Authentication,1386,7,Tampering,10,208,PoW,1.11,0
+D0087,Device,Encrypted Data Transfer,498,38,Man-in-the-Middle,4,287,PoS,1.26,1
+D0088,Application,Data Transmission,932,22,Tampering,9,260,PoA,1.47,0
+D0089,Network,Encrypted Data Transfer,85,22,Man-in-the-Middle,2,163,PBFT,0.87,1
+D0090,Network,Smart Contract Execution,1461,27,DDoS,4,145,PBFT,1.15,1
+D0091,Application,Encrypted Data Transfer,954,29,Man-in-the-Middle,3,156,PoA,1.53,0
+D0092,Device,Data Transmission,171,42,Tampering,4,293,PoW,0.58,1
+D0093,Device,Data Transmission,212,27,Eavesdropping,10,106,PoA,1.6,1
+D0094,Application,Smart Contract Execution,739,14,Man-in-the-Middle,1,165,PBFT,1.08,1
+D0095,Application,Encrypted Data Transfer,1452,17,Tampering,6,139,PoW,1.73,1
+D0096,Network,Smart Contract Execution,414,41,Tampering,10,222,PoS,1.86,1
+D0097,Application,Data Transmission,197,47,Unauthorized Access,7,256,PoA,1.61,1
+D0098,Device,Encrypted Data Transfer,1295,22,Man-in-the-Middle,3,164,PBFT,1.63,1
+D0099,Network,Encrypted Data Transfer,638,31,Unauthorized Access,10,257,PBFT,0.74,1
+D0100,Device,Data Transmission,1301,11,Tampering,4,278,PoW,1.18,0
+D0101,Device,Encrypted Data Transfer,924,32,Unauthorized Access,5,282,PoW,0.69,1
+D0102,Application,Smart Contract Execution,271,35,Eavesdropping,10,271,PoS,1.22,0
+D0103,Application,Smart Contract Execution,329,32,Man-in-the-Middle,10,275,PoW,1.14,1
+D0104,Device,Data Transmission,248,12,Eavesdropping,4,283,PoW,1.9,1
+D0105,Network,Data Transmission,1428,23,Tampering,6,192,PoS,1.25,1
+D0106,Network,Smart Contract Execution,1290,28,Tampering,10,221,PBFT,1.49,1
+D0107,Application,Data Transmission,981,24,Unauthorized Access,1,189,PBFT,1.73,0
+D0108,Application,Smart Contract Execution,165,39,Tampering,6,123,PoS,0.63,0
+D0109,Network,Authentication,1218,28,Tampering,2,286,PoA,1.57,1
+D0110,Network,Encrypted Data Transfer,911,7,Man-in-the-Middle,2,150,PoS,1.5,0
+D0111,Application,Encrypted Data Transfer,366,9,DDoS,9,130,PoA,1.51,1
+D0112,Device,Encrypted Data Transfer,999,19,DDoS,9,218,PoS,1.99,0
+D0113,Device,Data Transmission,334,30,Tampering,6,268,PoW,0.78,1
+D0114,Device,Smart Contract Execution,686,27,Tampering,9,253,PoS,0.56,1
+D0115,Device,Data Transmission,321,23,Tampering,10,156,PoA,0.66,1
+D0116,Application,Authentication,1302,26,Tampering,3,273,PoW,1.73,0
+D0117,Application,Data Transmission,609,9,DDoS,5,148,PoA,1.35,1
+D0118,Application,Encrypted Data Transfer,1113,28,Tampering,7,143,PBFT,0.68,0
+D0119,Device,Data Transmission,1303,41,Tampering,3,148,PoA,0.87,1
+D0120,Application,Smart Contract Execution,388,15,DDoS,3,152,PBFT,0.88,0
+D0121,Device,Smart Contract Execution,366,8,Unauthorized Access,7,278,PoS,0.83,0
+D0122,Application,Encrypted Data Transfer,1165,30,Eavesdropping,10,184,PoW,1.39,1
+D0123,Device,Authentication,1230,16,Unauthorized Access,6,216,PoW,0.51,1
+D0124,Device,Data Transmission,1224,20,Eavesdropping,4,135,PoA,1.99,1
+D0125,Application,Data Transmission,1228,16,Unauthorized Access,8,243,PBFT,0.73,1
+D0126,Device,Encrypted Data Transfer,987,49,DDoS,1,232,PoW,1.68,1
+D0127,Device,Encrypted Data Transfer,1210,49,Unauthorized Access,1,179,PoA,1.81,1
+D0128,Network,Smart Contract Execution,239,41,Man-in-the-Middle,7,179,PoA,1.01,1
+D0129,Network,Encrypted Data Transfer,1021,49,Eavesdropping,5,191,PoS,0.8,1
+D0130,Network,Encrypted Data Transfer,669,28,Tampering,4,214,PoW,0.73,1
+D0131,Application,Data Transmission,337,44,Eavesdropping,2,243,PBFT,0.76,0
+D0132,Application,Smart Contract Execution,917,17,Eavesdropping,2,283,PoS,1.85,1
+D0133,Device,Smart Contract Execution,509,12,Tampering,5,197,PoS,0.8,1
+D0134,Network,Encrypted Data Transfer,1101,30,Eavesdropping,8,296,PoS,1.7,0
+D0135,Device,Encrypted Data Transfer,819,42,Unauthorized Access,1,139,PoA,1.87,1
+D0136,Device,Data Transmission,1006,16,Eavesdropping,2,180,PoA,1.75,1
+D0137,Device,Data Transmission,1415,14,Tampering,6,174,PBFT,1.73,1
+D0138,Network,Smart Contract Execution,796,17,Tampering,5,169,PoA,1.43,1
+D0139,Device,Encrypted Data Transfer,66,11,Eavesdropping,5,274,PoA,1.82,1
+D0140,Network,Data Transmission,450,14,Man-in-the-Middle,7,200,PoS,1.54,1
+D0141,Device,Encrypted Data Transfer,274,22,Man-in-the-Middle,1,174,PoA,0.52,1
+D0142,Network,Smart Contract Execution,1115,45,Eavesdropping,2,258,PBFT,1.31,1
+D0143,Network,Smart Contract Execution,1348,20,Tampering,5,213,PoW,1.32,0
+D0144,Device,Smart Contract Execution,136,35,DDoS,6,170,PoA,0.65,0
+D0145,Network,Smart Contract Execution,547,36,Man-in-the-Middle,5,271,PoW,0.88,0
+D0146,Network,Authentication,373,33,Eavesdropping,8,112,PoS,0.57,1
+D0147,Device,Authentication,1327,12,Eavesdropping,6,161,PoS,1.72,1
+D0148,Application,Smart Contract Execution,669,41,DDoS,1,164,PBFT,0.97,1
+D0149,Network,Authentication,674,44,Eavesdropping,8,173,PoA,1.46,1
+D0150,Application,Encrypted Data Transfer,372,44,Man-in-the-Middle,1,193,PoW,1.01,1
+D0151,Network,Authentication,319,33,Unauthorized Access,9,196,PoS,1.21,1
+D0152,Application,Encrypted Data Transfer,1105,30,Unauthorized Access,4,126,PoS,1.69,1
+D0153,Network,Authentication,1469,23,Man-in-the-Middle,5,185,PoA,1.47,1
+D0154,Application,Authentication,1304,8,Man-in-the-Middle,7,267,PoS,0.8,1
+D0155,Network,Encrypted Data Transfer,817,13,DDoS,8,154,PBFT,1.97,1
+D0156,Device,Encrypted Data Transfer,326,49,Man-in-the-Middle,9,285,PoA,1.24,0
+D0157,Device,Encrypted Data Transfer,319,35,Unauthorized Access,1,159,PoW,0.53,0
+D0158,Device,Authentication,267,22,Unauthorized Access,9,271,PBFT,1.74,0
+D0159,Device,Encrypted Data Transfer,1329,41,Tampering,4,220,PoS,0.74,1
+D0160,Application,Smart Contract Execution,711,30,Eavesdropping,3,200,PoA,0.9,1
+D0161,Device,Authentication,1001,48,DDoS,5,101,PoW,0.79,1
+D0162,Device,Encrypted Data Transfer,656,42,DDoS,4,283,PoA,1.16,0
+D0163,Network,Data Transmission,606,38,Man-in-the-Middle,5,297,PBFT,0.86,0
+D0164,Network,Encrypted Data Transfer,410,18,Man-in-the-Middle,8,181,PoA,1.49,1
+D0165,Device,Smart Contract Execution,729,37,Unauthorized Access,3,242,PoS,0.71,1
+D0166,Application,Encrypted Data Transfer,725,18,Man-in-the-Middle,7,292,PBFT,0.92,0
+D0167,Application,Smart Contract Execution,1449,11,Eavesdropping,4,270,PoS,1.95,0
+D0168,Application,Data Transmission,775,15,Man-in-the-Middle,5,148,PoS,1.73,1
+D0169,Application,Smart Contract Execution,1496,36,Tampering,10,143,PoW,1.09,1
+D0170,Device,Encrypted Data Transfer,286,17,Unauthorized Access,1,206,PoW,1.67,1
+D0171,Network,Encrypted Data Transfer,893,46,Man-in-the-Middle,6,138,PBFT,1.91,1
+D0172,Application,Smart Contract Execution,387,13,Man-in-the-Middle,6,142,PBFT,1.09,1
+D0173,Application,Smart Contract Execution,1373,41,Man-in-the-Middle,4,207,PoS,1.33,1
+D0174,Application,Authentication,1496,18,Eavesdropping,9,295,PoS,1.74,1
+D0175,Network,Encrypted Data Transfer,270,15,Tampering,3,218,PoA,0.77,0
+D0176,Network,Authentication,75,30,Eavesdropping,9,209,PoS,1.45,1
+D0177,Application,Data Transmission,1451,14,DDoS,8,189,PoS,0.88,0
+D0178,Device,Authentication,940,16,DDoS,1,244,PBFT,0.64,0
+D0179,Device,Smart Contract Execution,53,37,Man-in-the-Middle,7,207,PoS,1.78,0
+D0180,Network,Authentication,1057,8,Man-in-the-Middle,7,155,PoS,0.51,1
+D0181,Device,Authentication,825,9,Unauthorized Access,8,122,PoS,1.32,1
+D0182,Device,Encrypted Data Transfer,336,17,DDoS,4,156,PoA,1.94,1
+D0183,Application,Encrypted Data Transfer,890,47,Eavesdropping,5,155,PoA,0.5,0
+D0184,Application,Data Transmission,263,30,Man-in-the-Middle,1,263,PoA,1.08,1
+D0185,Device,Smart Contract Execution,671,30,Eavesdropping,7,109,PoA,1.44,1
+D0186,Device,Encrypted Data Transfer,874,15,Eavesdropping,4,223,PBFT,0.77,1
+D0187,Network,Encrypted Data Transfer,764,9,DDoS,10,224,PoS,1.85,1
+D0188,Device,Smart Contract Execution,936,32,Man-in-the-Middle,9,156,PoS,1.79,0
+D0189,Network,Authentication,447,11,Man-in-the-Middle,4,150,PBFT,1.64,0
+D0190,Network,Data Transmission,565,31,Tampering,9,262,PoA,1.72,0
+D0191,Network,Smart Contract Execution,1181,47,DDoS,1,136,PBFT,1.2,1
+D0192,Application,Smart Contract Execution,478,9,Unauthorized Access,4,212,PoW,1.89,1
+D0193,Application,Data Transmission,444,20,Tampering,1,154,PoW,1.69,1
+D0194,Device,Encrypted Data Transfer,1426,9,Tampering,4,240,PoW,1.68,1
+D0195,Network,Authentication,768,48,Eavesdropping,4,212,PoA,1.1,1
+D0196,Application,Authentication,569,26,Tampering,10,139,PoW,0.65,1
+D0197,Network,Data Transmission,436,13,DDoS,7,232,PoA,0.73,1
+D0198,Device,Data Transmission,1255,36,DDoS,1,127,PoA,1.82,1
+D0199,Device,Smart Contract Execution,415,48,Man-in-the-Middle,7,116,PoA,1.97,1
+D0200,Device,Data Transmission,1174,31,Unauthorized Access,6,118,PoA,0.87,0
+D0201,Device,Encrypted Data Transfer,942,29,Eavesdropping,1,237,PBFT,1.45,0
+D0202,Application,Smart Contract Execution,813,33,Unauthorized Access,1,166,PoA,1.04,1
+D0203,Device,Encrypted Data Transfer,463,47,Eavesdropping,3,232,PBFT,1.47,1
+D0204,Application,Encrypted Data Transfer,288,32,Eavesdropping,3,262,PoA,0.54,0
+D0205,Application,Data Transmission,113,16,Eavesdropping,9,119,PoA,1.39,1
+D0206,Device,Encrypted Data Transfer,894,46,Tampering,10,100,PoW,1.68,1
+D0207,Device,Authentication,547,16,Eavesdropping,9,188,PBFT,1.05,1
+D0208,Network,Smart Contract Execution,1039,32,Eavesdropping,9,279,PoA,1.06,0
+D0209,Network,Encrypted Data Transfer,735,19,DDoS,5,114,PoW,1.43,1
+D0210,Network,Smart Contract Execution,1422,5,Tampering,2,214,PoW,0.98,1
+D0211,Device,Authentication,1375,11,Man-in-the-Middle,4,176,PBFT,0.92,1
+D0212,Application,Smart Contract Execution,538,10,Tampering,10,102,PoS,0.79,1
+D0213,Application,Smart Contract Execution,699,45,Eavesdropping,3,123,PoS,1.63,1
+D0214,Network,Authentication,1104,12,DDoS,1,163,PoW,1.78,1
+D0215,Device,Encrypted Data Transfer,1478,16,DDoS,3,108,PBFT,0.89,0
+D0216,Application,Smart Contract Execution,805,45,Unauthorized Access,9,279,PBFT,0.97,1
+D0217,Application,Encrypted Data Transfer,647,20,DDoS,7,110,PoW,0.55,1
+D0218,Application,Authentication,652,38,Man-in-the-Middle,1,160,PoW,0.85,0
+D0219,Application,Encrypted Data Transfer,787,5,Man-in-the-Middle,10,185,PBFT,0.78,1
+D0220,Device,Authentication,439,35,DDoS,3,221,PoS,1.73,0
+D0221,Network,Authentication,633,32,Eavesdropping,6,273,PoA,0.69,1
+D0222,Network,Data Transmission,1115,28,Eavesdropping,4,202,PoW,0.93,1
+D0223,Network,Encrypted Data Transfer,55,47,Unauthorized Access,4,147,PoS,1.89,1
+D0224,Network,Encrypted Data Transfer,889,21,Man-in-the-Middle,3,171,PoW,1.6,1
+D0225,Network,Encrypted Data Transfer,1316,16,Tampering,7,250,PoS,1.04,1
+D0226,Application,Data Transmission,444,9,Eavesdropping,6,255,PoA,1.69,0
+D0227,Network,Authentication,1024,11,Tampering,2,251,PBFT,0.54,1
+D0228,Network,Authentication,1276,23,Eavesdropping,8,172,PoW,1.45,1
+D0229,Device,Smart Contract Execution,267,43,DDoS,8,138,PoS,0.64,1
+D0230,Network,Smart Contract Execution,158,5,Eavesdropping,9,168,PoA,0.82,1
+D0231,Network,Data Transmission,1002,13,Man-in-the-Middle,5,231,PoA,1.94,1
+D0232,Network,Authentication,919,30,DDoS,3,133,PoS,0.95,0
+D0233,Network,Data Transmission,81,12,Tampering,7,159,PoA,1.57,0
+D0234,Network,Smart Contract Execution,1279,26,Man-in-the-Middle,4,267,PoW,1.51,1
+D0235,Network,Smart Contract Execution,1356,37,Tampering,9,212,PBFT,0.74,0
+D0236,Network,Smart Contract Execution,376,43,Man-in-the-Middle,4,193,PBFT,1.96,1
+D0237,Application,Smart Contract Execution,1257,8,Eavesdropping,4,209,PoW,0.73,1
+D0238,Network,Authentication,1393,46,Tampering,1,210,PoW,1.47,1
+D0239,Device,Data Transmission,550,40,Man-in-the-Middle,6,262,PoS,1.16,1
+D0240,Network,Authentication,669,9,Unauthorized Access,5,120,PBFT,0.7,1
+D0241,Network,Data Transmission,242,13,Eavesdropping,3,263,PoW,1.67,1
+D0242,Network,Authentication,503,7,Man-in-the-Middle,6,144,PoA,1.99,1
+D0243,Network,Encrypted Data Transfer,718,30,DDoS,2,138,PoW,0.97,1
+D0244,Device,Data Transmission,438,14,Unauthorized Access,1,149,PoW,0.86,1
+D0245,Device,Encrypted Data Transfer,1495,43,Man-in-the-Middle,3,139,PoA,0.99,1
+D0246,Device,Data Transmission,1317,48,Man-in-the-Middle,8,240,PoA,1.12,1
+D0247,Device,Authentication,1046,25,DDoS,5,209,PoW,1.73,1
+D0248,Application,Authentication,1124,9,Man-in-the-Middle,5,250,PoW,0.93,0
+D0249,Device,Authentication,891,17,Unauthorized Access,9,272,PoS,1.01,1
+D0250,Application,Authentication,53,46,Eavesdropping,10,292,PBFT,0.87,0
+D0251,Device,Authentication,1280,29,Unauthorized Access,3,136,PoW,0.6,1
+D0252,Device,Authentication,1397,20,Eavesdropping,4,181,PoW,1.09,1
+D0253,Device,Smart Contract Execution,495,37,Man-in-the-Middle,2,264,PoW,1.53,1
+D0254,Application,Encrypted Data Transfer,855,25,DDoS,6,232,PoS,0.84,1
+D0255,Application,Data Transmission,1217,20,Unauthorized Access,3,269,PoW,0.95,1
+D0256,Network,Smart Contract Execution,755,22,Man-in-the-Middle,9,287,PoW,0.88,0
+D0257,Application,Data Transmission,657,29,Tampering,8,285,PoA,0.79,1
+D0258,Device,Encrypted Data Transfer,1145,16,Man-in-the-Middle,5,132,PoW,1.46,1
+D0259,Network,Data Transmission,1452,47,Man-in-the-Middle,1,262,PBFT,1.09,1
+D0260,Device,Smart Contract Execution,807,13,Eavesdropping,8,127,PBFT,0.94,1
+D0261,Application,Encrypted Data Transfer,1320,45,Man-in-the-Middle,2,262,PoS,1.12,1
+D0262,Application,Encrypted Data Transfer,1323,15,Tampering,6,174,PoA,1.38,1
+D0263,Application,Encrypted Data Transfer,890,16,Unauthorized Access,6,160,PBFT,1.05,1
+D0264,Network,Data Transmission,753,16,Man-in-the-Middle,9,293,PoA,1.11,1
+D0265,Device,Authentication,1386,38,Man-in-the-Middle,3,125,PoA,1.91,0
+D0266,Device,Encrypted Data Transfer,1165,46,Unauthorized Access,5,144,PoW,1.74,1
+D0267,Device,Authentication,375,26,DDoS,7,247,PoW,0.88,1
+D0268,Application,Smart Contract Execution,1240,42,Eavesdropping,7,281,PoS,0.6,1
+D0269,Application,Encrypted Data Transfer,306,49,Eavesdropping,8,271,PBFT,1.83,1
+D0270,Device,Smart Contract Execution,1068,28,Man-in-the-Middle,5,241,PoS,0.85,1
+D0271,Application,Smart Contract Execution,587,43,Man-in-the-Middle,9,123,PoA,1.22,1
+D0272,Network,Encrypted Data Transfer,1072,10,Man-in-the-Middle,10,226,PoS,1.34,1
+D0273,Device,Data Transmission,647,8,Unauthorized Access,1,183,PoS,1.58,1
+D0274,Device,Authentication,482,48,DDoS,8,217,PBFT,1.17,0
+D0275,Application,Data Transmission,324,14,Man-in-the-Middle,2,231,PBFT,0.69,1
+D0276,Application,Smart Contract Execution,1387,15,Eavesdropping,9,196,PBFT,1.01,1
+D0277,Device,Authentication,594,8,DDoS,9,178,PoW,1.41,1
+D0278,Device,Authentication,742,11,Eavesdropping,10,204,PoA,1.8,1
+D0279,Network,Data Transmission,339,27,Unauthorized Access,6,122,PBFT,0.87,0
+D0280,Application,Encrypted Data Transfer,512,22,Eavesdropping,1,195,PoW,0.74,0
+D0281,Device,Smart Contract Execution,54,39,Unauthorized Access,5,257,PoA,1.98,1
+D0282,Device,Smart Contract Execution,491,17,Tampering,1,113,PoS,1.8,1
+D0283,Device,Smart Contract Execution,1186,5,Tampering,3,272,PoA,0.67,1
+D0284,Network,Authentication,707,33,Tampering,3,186,PoS,0.97,1
+D0285,Device,Encrypted Data Transfer,1368,35,Man-in-the-Middle,6,160,PoW,0.81,0
+D0286,Application,Encrypted Data Transfer,291,10,Unauthorized Access,10,200,PoS,1.02,1
+D0287,Device,Smart Contract Execution,1191,23,Eavesdropping,5,191,PoW,0.94,0
+D0288,Network,Encrypted Data Transfer,282,46,DDoS,9,222,PBFT,0.76,1
+D0289,Device,Authentication,525,30,Tampering,2,115,PBFT,0.73,1
+D0290,Device,Data Transmission,334,35,Eavesdropping,7,237,PBFT,1.99,1
+D0291,Network,Authentication,1046,10,Man-in-the-Middle,10,286,PoA,1.82,1
+D0292,Device,Authentication,404,23,DDoS,8,284,PoW,1.74,0
+D0293,Device,Smart Contract Execution,830,30,Unauthorized Access,7,166,PoW,1.47,1
+D0294,Device,Data Transmission,981,19,Man-in-the-Middle,10,222,PoW,0.92,0
+D0295,Device,Data Transmission,951,35,Unauthorized Access,8,120,PBFT,1.12,1
+D0296,Device,Data Transmission,1148,15,DDoS,7,140,PoA,1.54,1
+D0297,Application,Authentication,152,29,Man-in-the-Middle,7,247,PoW,1.35,1
+D0298,Device,Encrypted Data Transfer,1009,5,Unauthorized Access,2,109,PBFT,1.85,0
+D0299,Application,Authentication,166,33,Unauthorized Access,8,190,PBFT,1.39,0
+D0300,Application,Authentication,866,11,Unauthorized Access,8,227,PoS,1.0,1
+D0301,Network,Encrypted Data Transfer,684,13,Eavesdropping,3,105,PoW,1.2,0
+D0302,Device,Smart Contract Execution,1231,47,Tampering,10,107,PoW,1.53,1
+D0303,Network,Authentication,877,32,Tampering,7,250,PoS,0.57,1
+D0304,Application,Data Transmission,515,23,Tampering,4,114,PoW,1.27,0
+D0305,Application,Data Transmission,90,49,Unauthorized Access,7,287,PoW,1.03,1
+D0306,Application,Encrypted Data Transfer,1260,21,Unauthorized Access,3,161,PoS,1.33,1
+D0307,Application,Authentication,152,24,Tampering,1,156,PBFT,1.64,1
+D0308,Application,Encrypted Data Transfer,1140,35,Eavesdropping,7,198,PoW,0.87,0
+D0309,Network,Smart Contract Execution,73,30,Man-in-the-Middle,4,100,PoW,0.69,0
+D0310,Network,Data Transmission,612,25,Unauthorized Access,6,193,PBFT,1.59,1
+D0311,Network,Encrypted Data Transfer,165,15,Unauthorized Access,6,230,PoS,1.42,1
+D0312,Application,Encrypted Data Transfer,576,27,Unauthorized Access,4,181,PoA,1.41,1
+D0313,Application,Smart Contract Execution,984,46,Man-in-the-Middle,2,115,PoS,1.75,1
+D0314,Network,Authentication,1364,12,Eavesdropping,6,148,PoW,1.69,0
+D0315,Network,Authentication,1326,23,Tampering,8,131,PoS,1.08,1
+D0316,Application,Data Transmission,812,24,Man-in-the-Middle,10,282,PBFT,1.37,0
+D0317,Application,Smart Contract Execution,1231,41,Man-in-the-Middle,4,148,PoA,1.01,0
+D0318,Network,Smart Contract Execution,279,45,Eavesdropping,4,235,PoA,0.94,1
+D0319,Application,Smart Contract Execution,460,49,Eavesdropping,4,105,PoS,1.77,1
+D0320,Network,Authentication,802,48,Unauthorized Access,1,147,PoA,1.4,1
+D0321,Device,Smart Contract Execution,161,9,Unauthorized Access,4,126,PBFT,1.78,1
+D0322,Application,Authentication,261,25,Man-in-the-Middle,1,105,PoW,1.78,0
+D0323,Device,Data Transmission,1090,34,Man-in-the-Middle,1,189,PoS,0.64,1
+D0324,Device,Encrypted Data Transfer,233,26,Tampering,4,201,PoA,1.1,0
+D0325,Application,Data Transmission,1203,22,Eavesdropping,2,248,PoS,1.86,0
+D0326,Application,Smart Contract Execution,356,17,Eavesdropping,8,264,PoS,0.93,1
+D0327,Application,Authentication,1445,16,DDoS,4,254,PoS,1.84,1
+D0328,Network,Data Transmission,276,37,Eavesdropping,8,122,PoS,0.74,1
+D0329,Application,Authentication,1189,35,Man-in-the-Middle,4,132,PoW,1.24,1
+D0330,Device,Data Transmission,1346,39,Man-in-the-Middle,6,211,PoA,1.64,0
+D0331,Network,Smart Contract Execution,1415,11,Eavesdropping,7,198,PoS,0.97,0
+D0332,Device,Smart Contract Execution,421,11,Tampering,9,131,PBFT,1.9,1
+D0333,Device,Authentication,1231,6,DDoS,9,256,PoW,1.25,1
+D0334,Application,Encrypted Data Transfer,257,24,Man-in-the-Middle,1,175,PoA,1.69,1
+D0335,Device,Encrypted Data Transfer,633,46,Tampering,4,108,PoW,1.73,1
+D0336,Device,Encrypted Data Transfer,1247,5,Eavesdropping,1,260,PBFT,1.36,1
+D0337,Network,Smart Contract Execution,1186,21,Unauthorized Access,1,142,PoS,1.88,1
+D0338,Application,Data Transmission,1206,18,Eavesdropping,8,219,PoS,0.98,1
+D0339,Application,Data Transmission,644,10,Unauthorized Access,8,179,PoA,1.26,1
+D0340,Device,Smart Contract Execution,853,28,Eavesdropping,1,195,PoW,1.17,0
+D0341,Application,Smart Contract Execution,688,42,Unauthorized Access,7,151,PBFT,0.64,0
+D0342,Application,Data Transmission,991,34,Unauthorized Access,2,264,PBFT,1.83,1
+D0343,Device,Smart Contract Execution,731,37,Tampering,6,282,PoS,1.52,1
+D0344,Device,Smart Contract Execution,1474,34,Unauthorized Access,8,101,PoA,0.59,0
+D0345,Device,Authentication,1086,21,Unauthorized Access,1,226,PoA,1.22,1
+D0346,Application,Smart Contract Execution,225,26,Eavesdropping,3,208,PBFT,0.65,1
+D0347,Network,Data Transmission,95,29,Unauthorized Access,3,198,PoW,0.9,1
+D0348,Device,Authentication,126,6,DDoS,1,194,PoW,0.58,1
+D0349,Network,Smart Contract Execution,335,35,Tampering,1,250,PoA,1.12,1
+D0350,Network,Encrypted Data Transfer,556,26,Man-in-the-Middle,4,134,PoA,1.3,0
+D0351,Network,Encrypted Data Transfer,952,14,Man-in-the-Middle,9,206,PoS,1.97,1
+D0352,Application,Data Transmission,1405,44,Eavesdropping,5,113,PBFT,0.81,1
+D0353,Application,Data Transmission,114,31,Eavesdropping,2,137,PoS,1.3,0
+D0354,Application,Encrypted Data Transfer,1349,39,Man-in-the-Middle,8,166,PoA,1.26,0
+D0355,Application,Authentication,81,47,Eavesdropping,4,185,PBFT,0.93,1
+D0356,Device,Data Transmission,684,41,Tampering,8,214,PoA,1.47,1
+D0357,Network,Encrypted Data Transfer,1126,35,Tampering,7,258,PoS,1.03,0
+D0358,Application,Data Transmission,1059,22,Unauthorized Access,8,126,PoS,1.81,0
+D0359,Application,Authentication,1195,41,Eavesdropping,9,287,PoW,0.96,1
+D0360,Device,Encrypted Data Transfer,881,42,Eavesdropping,6,135,PoW,0.55,0
+D0361,Application,Smart Contract Execution,685,35,Eavesdropping,7,229,PoS,1.79,1
+D0362,Network,Smart Contract Execution,1269,36,Man-in-the-Middle,8,197,PoS,1.15,1
+D0363,Device,Data Transmission,1045,26,Tampering,7,230,PoW,0.6,0
+D0364,Network,Data Transmission,1295,7,Man-in-the-Middle,6,263,PoW,1.46,1
+D0365,Network,Encrypted Data Transfer,977,7,Man-in-the-Middle,3,268,PBFT,1.32,0
+D0366,Application,Data Transmission,1085,25,DDoS,3,278,PoS,1.98,1
+D0367,Network,Data Transmission,1113,39,Tampering,5,253,PBFT,1.0,1
+D0368,Network,Authentication,407,39,Eavesdropping,6,256,PBFT,1.49,1
+D0369,Device,Smart Contract Execution,457,10,Eavesdropping,10,172,PoS,1.93,1
+D0370,Network,Encrypted Data Transfer,548,19,Man-in-the-Middle,5,195,PBFT,1.76,1
+D0371,Device,Smart Contract Execution,1042,29,Tampering,3,176,PoS,1.28,1
+D0372,Application,Smart Contract Execution,473,15,DDoS,5,152,PoA,1.14,1
+D0373,Device,Authentication,808,37,DDoS,7,250,PoA,0.54,1
+D0374,Application,Encrypted Data Transfer,773,32,DDoS,10,125,PoW,1.06,0
+D0375,Network,Encrypted Data Transfer,543,44,Unauthorized Access,3,206,PoA,1.26,1
+D0376,Application,Smart Contract Execution,418,18,Tampering,8,272,PoS,1.44,1
+D0377,Network,Smart Contract Execution,1085,48,Tampering,3,274,PoS,1.54,1
+D0378,Device,Data Transmission,651,32,Man-in-the-Middle,3,201,PoW,0.66,1
+D0379,Application,Encrypted Data Transfer,718,34,Tampering,10,161,PoW,1.32,1
+D0380,Network,Authentication,1460,16,Unauthorized Access,10,164,PBFT,1.7,0
+D0381,Network,Smart Contract Execution,430,39,Unauthorized Access,6,237,PBFT,1.61,0
+D0382,Application,Smart Contract Execution,1353,27,Man-in-the-Middle,1,109,PoS,0.54,1
+D0383,Application,Smart Contract Execution,776,23,Eavesdropping,3,264,PoW,1.64,1
+D0384,Device,Authentication,1445,7,Man-in-the-Middle,5,101,PoS,1.96,1
+D0385,Device,Authentication,123,14,Eavesdropping,8,294,PoW,0.89,1
+D0386,Device,Authentication,1456,39,Man-in-the-Middle,2,109,PoS,1.65,1
+D0387,Application,Encrypted Data Transfer,683,35,Eavesdropping,1,156,PoW,1.28,1
+D0388,Application,Smart Contract Execution,1407,41,Eavesdropping,8,123,PoW,1.47,1
+D0389,Device,Smart Contract Execution,496,49,DDoS,7,268,PBFT,1.23,1
+D0390,Network,Data Transmission,463,7,Unauthorized Access,10,197,PoW,1.56,0
+D0391,Application,Smart Contract Execution,1398,35,Unauthorized Access,6,276,PBFT,1.13,1
+D0392,Network,Data Transmission,1237,43,Tampering,3,211,PoW,0.73,1
+D0393,Device,Data Transmission,1239,34,Unauthorized Access,4,211,PoA,1.67,0
+D0394,Application,Smart Contract Execution,529,16,Tampering,3,233,PoA,1.96,1
+D0395,Device,Smart Contract Execution,744,35,Tampering,3,181,PoW,1.31,1
+D0396,Device,Encrypted Data Transfer,241,46,Man-in-the-Middle,2,163,PBFT,1.02,1
+D0397,Device,Encrypted Data Transfer,308,18,DDoS,1,218,PoA,1.38,1
+D0398,Device,Encrypted Data Transfer,1276,45,Man-in-the-Middle,5,147,PoW,0.97,1
+D0399,Network,Smart Contract Execution,1433,30,Eavesdropping,6,100,PoS,1.24,1
+D0400,Device,Smart Contract Execution,198,48,Man-in-the-Middle,2,236,PoS,1.71,1
+D0401,Device,Encrypted Data Transfer,1324,21,Unauthorized Access,8,100,PoW,1.38,0
+D0402,Application,Smart Contract Execution,1086,32,DDoS,5,128,PoS,0.71,1
+D0403,Device,Encrypted Data Transfer,371,24,Eavesdropping,4,123,PoA,1.76,1
+D0404,Device,Data Transmission,1439,39,Man-in-the-Middle,7,214,PoW,1.66,1
+D0405,Device,Encrypted Data Transfer,401,38,Unauthorized Access,6,100,PoA,0.86,0
+D0406,Device,Smart Contract Execution,152,10,DDoS,7,129,PoW,0.79,1
+D0407,Network,Authentication,1149,20,Unauthorized Access,7,143,PBFT,1.67,1
+D0408,Application,Authentication,1293,24,Tampering,8,168,PoW,0.95,1
+D0409,Device,Authentication,1075,44,DDoS,9,141,PoW,1.08,1
+D0410,Device,Smart Contract Execution,289,15,DDoS,6,228,PoS,1.82,1
+D0411,Device,Encrypted Data Transfer,686,22,DDoS,6,109,PBFT,1.77,0
+D0412,Network,Smart Contract Execution,51,19,Tampering,7,117,PoW,1.37,0
+D0413,Network,Encrypted Data Transfer,1353,48,Man-in-the-Middle,9,121,PoA,1.98,0
+D0414,Application,Encrypted Data Transfer,1148,48,Man-in-the-Middle,9,275,PBFT,1.24,1
+D0415,Network,Encrypted Data Transfer,975,18,DDoS,3,294,PoS,1.16,1
+D0416,Network,Encrypted Data Transfer,54,49,DDoS,1,299,PoS,1.27,1
+D0417,Network,Smart Contract Execution,562,9,Tampering,7,147,PoW,1.35,1
+D0418,Network,Authentication,512,20,Tampering,2,211,PBFT,0.97,1
+D0419,Device,Encrypted Data Transfer,54,9,Man-in-the-Middle,5,275,PoA,1.21,0
+D0420,Application,Smart Contract Execution,555,10,Eavesdropping,9,203,PBFT,0.97,0
+D0421,Device,Encrypted Data Transfer,410,35,Eavesdropping,6,218,PoW,1.52,1
+D0422,Network,Authentication,473,19,Tampering,6,272,PBFT,1.75,1
+D0423,Network,Authentication,589,8,Unauthorized Access,5,285,PoA,1.97,1
+D0424,Network,Authentication,1397,34,Man-in-the-Middle,10,254,PoW,0.98,0
+D0425,Device,Authentication,1361,25,Eavesdropping,8,136,PoA,1.62,0
+D0426,Device,Encrypted Data Transfer,361,5,Tampering,3,247,PBFT,1.86,1
+D0427,Application,Smart Contract Execution,1019,22,Unauthorized Access,2,242,PBFT,1.89,1
+D0428,Network,Smart Contract Execution,1091,30,Eavesdropping,9,296,PoW,0.8,1
+D0429,Application,Encrypted Data Transfer,288,6,DDoS,5,101,PoS,1.4,0
+D0430,Network,Smart Contract Execution,1460,28,DDoS,1,283,PBFT,0.87,1
+D0431,Application,Data Transmission,1183,33,Tampering,10,204,PoS,1.46,1
+D0432,Device,Encrypted Data Transfer,1085,26,Eavesdropping,3,205,PBFT,1.16,1
+D0433,Application,Smart Contract Execution,1282,43,Unauthorized Access,6,276,PBFT,1.43,1
+D0434,Device,Data Transmission,589,26,DDoS,2,251,PoS,1.2,1
+D0435,Network,Smart Contract Execution,248,5,Tampering,3,296,PoA,1.39,1
+D0436,Device,Smart Contract Execution,689,8,Man-in-the-Middle,8,154,PoW,1.36,1
+D0437,Network,Authentication,292,6,Man-in-the-Middle,8,289,PoA,1.84,0
+D0438,Device,Encrypted Data Transfer,436,7,Tampering,8,208,PBFT,1.95,1
+D0439,Application,Authentication,78,26,Tampering,3,112,PoA,1.5,1
+D0440,Device,Encrypted Data Transfer,1479,45,Unauthorized Access,8,142,PBFT,0.68,0
+D0441,Network,Authentication,965,45,Eavesdropping,6,273,PoA,1.36,1
+D0442,Application,Encrypted Data Transfer,160,25,DDoS,4,215,PBFT,1.78,1
+D0443,Application,Smart Contract Execution,1421,18,Eavesdropping,3,255,PoA,1.44,1
+D0444,Application,Encrypted Data Transfer,745,28,Man-in-the-Middle,1,209,PBFT,1.64,1
+D0445,Network,Data Transmission,1459,27,Man-in-the-Middle,7,236,PoA,1.23,0
+D0446,Network,Authentication,397,11,DDoS,2,157,PoW,1.1,1
+D0447,Application,Encrypted Data Transfer,1256,31,DDoS,2,124,PoW,1.43,1
+D0448,Application,Authentication,294,15,Man-in-the-Middle,8,280,PoA,1.58,0
+D0449,Application,Data Transmission,837,16,DDoS,1,262,PoS,1.56,0
+D0450,Device,Smart Contract Execution,932,46,Man-in-the-Middle,1,154,PoA,1.85,1
+D0451,Device,Data Transmission,649,9,Tampering,6,126,PoS,0.55,1
+D0452,Device,Smart Contract Execution,318,7,DDoS,10,181,PoS,1.31,1
+D0453,Network,Authentication,1415,31,DDoS,7,180,PoS,1.59,1
+D0454,Application,Encrypted Data Transfer,213,46,Unauthorized Access,8,221,PoS,1.71,1
+D0455,Application,Encrypted Data Transfer,591,42,Unauthorized Access,9,136,PBFT,1.95,1
+D0456,Application,Smart Contract Execution,1370,22,Man-in-the-Middle,3,122,PoA,0.91,0
+D0457,Network,Authentication,63,11,DDoS,7,218,PBFT,1.11,1
+D0458,Device,Encrypted Data Transfer,950,30,Unauthorized Access,7,221,PBFT,1.23,1
+D0459,Application,Smart Contract Execution,384,47,Tampering,6,120,PBFT,1.61,0
+D0460,Device,Smart Contract Execution,1062,34,DDoS,2,184,PoS,0.64,0
+D0461,Network,Data Transmission,1144,23,Tampering,4,180,PoW,0.88,0
+D0462,Application,Data Transmission,1466,17,DDoS,7,132,PoA,1.62,0
+D0463,Application,Smart Contract Execution,119,42,Man-in-the-Middle,1,215,PoS,1.91,1
+D0464,Application,Encrypted Data Transfer,1368,10,Eavesdropping,5,190,PoS,0.74,0
+D0465,Device,Authentication,612,28,Eavesdropping,9,220,PoS,1.93,1
+D0466,Network,Smart Contract Execution,1027,46,Unauthorized Access,5,240,PoS,1.43,1
+D0467,Application,Authentication,1046,14,Man-in-the-Middle,4,167,PoA,0.63,0
+D0468,Network,Smart Contract Execution,102,44,Unauthorized Access,10,134,PoA,1.2,0
+D0469,Network,Data Transmission,1192,47,Man-in-the-Middle,9,215,PoS,0.96,0
+D0470,Application,Encrypted Data Transfer,583,41,Eavesdropping,5,222,PBFT,0.99,0
+D0471,Application,Data Transmission,173,41,Tampering,2,295,PoS,1.34,1
+D0472,Network,Authentication,982,16,Unauthorized Access,9,109,PBFT,0.61,0
+D0473,Application,Data Transmission,342,44,Eavesdropping,8,270,PoS,1.5,1
+D0474,Device,Authentication,764,6,Tampering,1,257,PoA,1.59,0
+D0475,Network,Data Transmission,859,12,DDoS,3,178,PoS,1.49,1
+D0476,Network,Data Transmission,80,27,Tampering,5,232,PoS,1.26,1
+D0477,Network,Smart Contract Execution,651,41,Eavesdropping,2,297,PoW,1.3,1
+D0478,Device,Encrypted Data Transfer,1437,16,Tampering,9,157,PoS,0.61,1
+D0479,Application,Data Transmission,532,7,Tampering,9,298,PBFT,1.13,0
+D0480,Application,Authentication,490,31,Man-in-the-Middle,2,150,PoA,1.25,1
+D0481,Application,Encrypted Data Transfer,86,14,Man-in-the-Middle,1,191,PBFT,1.4,1
+D0482,Application,Data Transmission,543,27,DDoS,1,178,PoA,0.77,1
+D0483,Application,Data Transmission,575,19,Unauthorized Access,5,281,PBFT,1.65,1
+D0484,Application,Data Transmission,492,34,Unauthorized Access,8,156,PBFT,0.89,1
+D0485,Application,Authentication,104,10,Tampering,10,119,PoA,1.35,1
+D0486,Network,Smart Contract Execution,950,46,DDoS,7,207,PBFT,0.66,1
+D0487,Application,Authentication,658,10,Eavesdropping,6,182,PBFT,0.99,1
+D0488,Network,Encrypted Data Transfer,770,45,Man-in-the-Middle,1,169,PoA,1.68,1
+D0489,Application,Data Transmission,662,46,Unauthorized Access,7,148,PoW,1.94,1
+D0490,Application,Encrypted Data Transfer,617,29,Tampering,5,145,PoA,1.38,1
+D0491,Device,Authentication,619,40,Eavesdropping,8,150,PoS,1.93,0
+D0492,Device,Encrypted Data Transfer,51,45,Eavesdropping,5,213,PoS,0.95,1
+D0493,Network,Authentication,134,11,DDoS,7,191,PBFT,1.25,1
+D0494,Network,Encrypted Data Transfer,867,28,Unauthorized Access,1,144,PoA,0.89,1
+D0495,Device,Smart Contract Execution,772,11,Eavesdropping,7,176,PBFT,1.81,1
+D0496,Device,Encrypted Data Transfer,1386,18,Man-in-the-Middle,3,122,PoW,1.27,1
+D0497,Device,Encrypted Data Transfer,160,37,Unauthorized Access,8,171,PBFT,1.91,0
+D0498,Application,Authentication,1307,30,Unauthorized Access,5,195,PoW,1.77,1
+D0499,Device,Encrypted Data Transfer,370,43,Man-in-the-Middle,7,188,PBFT,1.8,0
+D0500,Application,Smart Contract Execution,902,44,Eavesdropping,1,241,PoA,0.75,1
+D0501,Device,Authentication,777,25,DDoS,8,139,PoA,0.88,1
+D0502,Network,Encrypted Data Transfer,1289,9,Unauthorized Access,1,126,PoW,1.71,1
+D0503,Application,Authentication,227,15,Tampering,10,203,PoA,1.05,1
+D0504,Network,Authentication,722,34,Man-in-the-Middle,6,252,PoA,0.71,1
+D0505,Application,Encrypted Data Transfer,499,33,DDoS,8,143,PoS,1.29,1
+D0506,Device,Encrypted Data Transfer,90,16,DDoS,3,172,PoS,1.19,1
+D0507,Application,Encrypted Data Transfer,281,46,Tampering,6,183,PoW,1.41,1
+D0508,Device,Smart Contract Execution,776,42,Tampering,5,250,PBFT,0.73,1
+D0509,Network,Data Transmission,1356,33,Man-in-the-Middle,3,273,PoA,0.89,1
+D0510,Network,Authentication,1168,46,Eavesdropping,9,125,PoS,1.08,0
+D0511,Device,Authentication,260,17,Eavesdropping,1,233,PoW,1.5,1
+D0512,Application,Authentication,51,35,Man-in-the-Middle,6,255,PBFT,0.97,1
+D0513,Device,Encrypted Data Transfer,1414,40,Man-in-the-Middle,3,279,PoA,0.9,1
+D0514,Device,Smart Contract Execution,1416,25,DDoS,7,172,PBFT,1.47,1
+D0515,Network,Data Transmission,652,42,Tampering,3,158,PBFT,1.99,1
+D0516,Device,Encrypted Data Transfer,936,6,Tampering,8,108,PoS,0.69,1
+D0517,Network,Data Transmission,338,27,Man-in-the-Middle,7,261,PoS,0.6,1
+D0518,Device,Encrypted Data Transfer,399,24,Eavesdropping,1,207,PBFT,1.19,1
+D0519,Application,Smart Contract Execution,868,32,Eavesdropping,5,149,PoA,0.97,1
+D0520,Device,Authentication,814,11,Man-in-the-Middle,2,269,PoA,0.53,1
+D0521,Device,Encrypted Data Transfer,1016,37,Unauthorized Access,7,240,PoA,1.4,1
+D0522,Network,Smart Contract Execution,449,41,Unauthorized Access,5,240,PoW,1.9,1
+D0523,Device,Authentication,1094,19,Man-in-the-Middle,2,150,PBFT,1.48,1
+D0524,Device,Encrypted Data Transfer,302,26,DDoS,1,285,PoW,1.3,1
+D0525,Network,Smart Contract Execution,1283,26,Man-in-the-Middle,4,234,PoW,1.0,1
+D0526,Network,Encrypted Data Transfer,170,21,Tampering,3,171,PoA,0.74,1
+D0527,Network,Encrypted Data Transfer,124,41,Unauthorized Access,2,230,PoS,1.73,1
+D0528,Device,Encrypted Data Transfer,483,21,Eavesdropping,3,223,PoS,1.15,1
+D0529,Application,Authentication,556,22,Unauthorized Access,3,156,PoA,1.65,0
+D0530,Application,Encrypted Data Transfer,411,28,DDoS,10,210,PBFT,1.92,1
+D0531,Network,Authentication,588,28,Tampering,6,135,PoA,1.15,0
+D0532,Network,Encrypted Data Transfer,437,36,DDoS,10,264,PBFT,0.83,1
+D0533,Network,Smart Contract Execution,1377,9,Tampering,1,102,PoW,1.13,1
+D0534,Network,Authentication,424,11,Eavesdropping,3,119,PoS,1.39,1
+D0535,Device,Data Transmission,254,22,DDoS,8,178,PBFT,1.55,1
+D0536,Network,Data Transmission,1454,28,Eavesdropping,10,196,PBFT,1.25,1
+D0537,Network,Encrypted Data Transfer,800,49,Eavesdropping,5,131,PoS,1.66,1
+D0538,Network,Authentication,364,14,Unauthorized Access,8,250,PoA,1.53,1
+D0539,Application,Data Transmission,162,7,Man-in-the-Middle,10,125,PoS,1.38,1
+D0540,Device,Smart Contract Execution,892,26,DDoS,10,189,PBFT,0.53,1
+D0541,Device,Smart Contract Execution,670,25,Tampering,2,186,PoA,1.45,1
+D0542,Application,Encrypted Data Transfer,673,33,Man-in-the-Middle,4,254,PoW,1.97,1
+D0543,Network,Smart Contract Execution,298,30,Unauthorized Access,4,132,PBFT,1.23,1
+D0544,Device,Encrypted Data Transfer,247,41,Eavesdropping,8,106,PoW,0.83,0
+D0545,Device,Encrypted Data Transfer,881,28,Eavesdropping,8,248,PoA,1.2,1
+D0546,Device,Authentication,1431,36,DDoS,2,240,PoS,0.83,1
+D0547,Application,Encrypted Data Transfer,688,27,Man-in-the-Middle,10,264,PoA,0.79,1
+D0548,Application,Authentication,1461,32,DDoS,5,204,PBFT,1.63,0
+D0549,Network,Smart Contract Execution,1392,30,Man-in-the-Middle,3,155,PBFT,1.39,1
+D0550,Application,Data Transmission,1212,26,Eavesdropping,9,166,PoW,0.93,1
+D0551,Network,Encrypted Data Transfer,979,32,Eavesdropping,2,289,PBFT,0.97,0
+D0552,Network,Encrypted Data Transfer,415,23,Unauthorized Access,6,278,PBFT,1.73,1
+D0553,Network,Encrypted Data Transfer,490,27,Eavesdropping,4,277,PoW,1.04,1
+D0554,Network,Authentication,820,25,Man-in-the-Middle,5,291,PoW,1.96,0
+D0555,Application,Encrypted Data Transfer,994,30,Eavesdropping,1,215,PoS,1.34,1
+D0556,Device,Smart Contract Execution,1348,40,Eavesdropping,3,231,PoS,1.98,1
+D0557,Network,Data Transmission,1388,28,Tampering,9,292,PoS,0.95,1
+D0558,Application,Encrypted Data Transfer,217,27,Tampering,1,248,PBFT,1.86,1
+D0559,Network,Authentication,737,25,Man-in-the-Middle,6,173,PoA,1.0,0
+D0560,Device,Authentication,310,8,Unauthorized Access,6,165,PoS,1.9,1
+D0561,Device,Encrypted Data Transfer,508,29,Man-in-the-Middle,8,133,PoW,0.95,1
+D0562,Network,Encrypted Data Transfer,907,24,DDoS,7,261,PoS,1.18,0
+D0563,Application,Smart Contract Execution,703,17,Tampering,5,196,PoW,1.03,1
+D0564,Network,Encrypted Data Transfer,223,9,Unauthorized Access,8,290,PoS,0.83,1
+D0565,Device,Authentication,591,21,Unauthorized Access,1,105,PoS,0.96,1
+D0566,Device,Data Transmission,682,11,Man-in-the-Middle,6,113,PoS,0.62,0
+D0567,Application,Encrypted Data Transfer,779,29,Unauthorized Access,4,196,PoS,0.88,1
+D0568,Network,Authentication,511,38,Unauthorized Access,3,127,PoW,1.0,0
+D0569,Network,Data Transmission,1436,45,Man-in-the-Middle,10,136,PBFT,0.65,1
+D0570,Device,Data Transmission,1065,32,DDoS,10,198,PoS,1.88,1
+D0571,Device,Smart Contract Execution,1204,28,Eavesdropping,5,269,PBFT,1.85,1
+D0572,Application,Authentication,1078,47,DDoS,2,183,PoW,1.98,0
+D0573,Network,Smart Contract Execution,1210,46,Unauthorized Access,4,157,PoW,1.26,0
+D0574,Device,Smart Contract Execution,944,23,DDoS,5,178,PBFT,1.43,1
+D0575,Application,Authentication,1213,10,Man-in-the-Middle,4,193,PoW,1.52,0
+D0576,Application,Authentication,522,31,Unauthorized Access,3,198,PoA,1.86,0
+D0577,Application,Authentication,1183,46,Unauthorized Access,1,163,PoA,1.14,1
+D0578,Application,Data Transmission,500,12,Man-in-the-Middle,6,147,PBFT,0.75,0
+D0579,Device,Smart Contract Execution,1053,34,Tampering,9,179,PoA,0.61,1
+D0580,Network,Encrypted Data Transfer,486,47,Man-in-the-Middle,8,151,PBFT,1.79,0
+D0581,Network,Encrypted Data Transfer,1033,34,Eavesdropping,4,226,PoS,1.31,1
+D0582,Device,Authentication,1145,12,DDoS,4,190,PoS,0.76,1
+D0583,Network,Data Transmission,1294,11,Unauthorized Access,9,208,PoW,1.81,1
+D0584,Application,Encrypted Data Transfer,633,10,DDoS,2,174,PoW,1.4,1
+D0585,Application,Smart Contract Execution,383,13,Man-in-the-Middle,8,295,PBFT,1.01,0
+D0586,Device,Smart Contract Execution,948,11,Man-in-the-Middle,2,227,PBFT,1.06,1
+D0587,Device,Encrypted Data Transfer,779,13,Man-in-the-Middle,9,223,PoS,1.64,0
+D0588,Network,Encrypted Data Transfer,375,17,Tampering,2,191,PoA,0.65,0
+D0589,Device,Authentication,326,35,Eavesdropping,8,154,PoS,1.53,0
+D0590,Device,Authentication,1324,9,DDoS,2,103,PoS,1.39,0
+D0591,Application,Smart Contract Execution,1385,23,DDoS,6,195,PoW,1.21,1
+D0592,Application,Encrypted Data Transfer,124,26,Man-in-the-Middle,8,170,PoA,1.13,1
+D0593,Device,Smart Contract Execution,1162,23,Eavesdropping,5,213,PoA,1.09,1
+D0594,Network,Data Transmission,1215,46,Unauthorized Access,2,167,PoW,1.1,1
+D0595,Device,Smart Contract Execution,67,24,Man-in-the-Middle,7,280,PoA,1.83,0
+D0596,Device,Smart Contract Execution,691,25,Eavesdropping,6,194,PoS,1.13,1
+D0597,Device,Smart Contract Execution,493,17,Unauthorized Access,5,222,PoA,1.13,1
+D0598,Network,Encrypted Data Transfer,1363,23,Unauthorized Access,6,276,PoW,1.0,1
+D0599,Device,Encrypted Data Transfer,549,21,DDoS,10,119,PBFT,1.57,1
+D0600,Device,Encrypted Data Transfer,772,26,Unauthorized Access,1,139,PoW,0.66,0
+D0601,Network,Data Transmission,710,40,Eavesdropping,7,152,PoS,0.91,1
+D0602,Application,Data Transmission,923,33,Eavesdropping,8,199,PoW,0.66,1
+D0603,Application,Data Transmission,602,45,Tampering,9,297,PoW,1.29,0
+D0604,Network,Authentication,845,24,Unauthorized Access,1,162,PoW,1.7,0
+D0605,Network,Smart Contract Execution,375,28,Tampering,9,206,PoW,0.99,1
+D0606,Application,Data Transmission,166,30,Eavesdropping,9,228,PoW,1.38,0
+D0607,Application,Authentication,170,41,Man-in-the-Middle,3,201,PBFT,1.9,1
+D0608,Device,Data Transmission,276,6,Tampering,6,199,PoS,1.32,1
+D0609,Network,Authentication,1177,20,DDoS,1,199,PoS,0.74,1
+D0610,Device,Data Transmission,454,33,DDoS,8,221,PoA,0.83,1
+D0611,Device,Encrypted Data Transfer,403,35,Unauthorized Access,8,181,PBFT,1.62,1
+D0612,Network,Data Transmission,1413,27,Eavesdropping,3,289,PoA,0.84,1
+D0613,Device,Data Transmission,143,35,Unauthorized Access,7,100,PoW,0.61,1
+D0614,Device,Encrypted Data Transfer,87,12,Tampering,3,111,PoS,1.45,1
+D0615,Network,Encrypted Data Transfer,200,43,Eavesdropping,2,232,PBFT,1.36,0
+D0616,Device,Authentication,939,32,Unauthorized Access,10,174,PoA,0.84,1
+D0617,Network,Encrypted Data Transfer,577,39,DDoS,1,252,PBFT,0.75,0
+D0618,Network,Smart Contract Execution,872,48,Eavesdropping,2,160,PoW,1.39,1
+D0619,Application,Authentication,243,39,Eavesdropping,3,282,PoS,1.05,1
+D0620,Application,Data Transmission,1211,16,DDoS,2,241,PoS,1.44,1
+D0621,Network,Authentication,1095,40,Eavesdropping,2,117,PoS,1.71,1
+D0622,Network,Data Transmission,1363,28,Unauthorized Access,1,266,PoW,0.77,1
+D0623,Device,Data Transmission,211,10,Unauthorized Access,7,235,PoW,1.13,1
+D0624,Device,Authentication,101,12,Eavesdropping,7,284,PoS,1.36,1
+D0625,Application,Authentication,701,30,Tampering,6,171,PoA,1.16,1
+D0626,Network,Encrypted Data Transfer,803,24,Man-in-the-Middle,2,247,PoA,1.97,0
+D0627,Network,Data Transmission,1087,27,Man-in-the-Middle,3,179,PoA,1.53,0
+D0628,Network,Authentication,1283,13,Eavesdropping,6,201,PBFT,0.68,1
+D0629,Device,Data Transmission,1253,8,Eavesdropping,6,296,PoS,1.47,1
+D0630,Application,Data Transmission,1382,29,Man-in-the-Middle,2,180,PoW,0.81,1
+D0631,Network,Data Transmission,610,25,Tampering,6,105,PoW,1.86,0
+D0632,Application,Smart Contract Execution,180,40,Man-in-the-Middle,3,233,PoS,1.26,0
+D0633,Application,Encrypted Data Transfer,889,26,Man-in-the-Middle,10,200,PoS,0.86,1
+D0634,Device,Data Transmission,751,15,DDoS,3,188,PoA,1.6,1
+D0635,Application,Authentication,1443,26,Unauthorized Access,10,267,PoW,0.96,1
+D0636,Network,Data Transmission,1220,13,Tampering,1,210,PBFT,1.4,1
+D0637,Device,Authentication,158,14,Unauthorized Access,3,152,PBFT,0.82,1
+D0638,Network,Authentication,145,44,Eavesdropping,5,276,PoA,1.36,0
+D0639,Network,Smart Contract Execution,935,47,Tampering,3,270,PBFT,1.36,1
+D0640,Device,Data Transmission,199,8,Man-in-the-Middle,10,173,PoW,1.0,0
+D0641,Device,Data Transmission,1102,14,DDoS,8,285,PBFT,0.81,0
+D0642,Device,Encrypted Data Transfer,1219,34,Unauthorized Access,3,154,PoS,0.58,1
+D0643,Device,Smart Contract Execution,159,37,DDoS,1,267,PoW,0.73,0
+D0644,Network,Authentication,1427,5,Tampering,2,176,PoS,1.76,1
+D0645,Device,Encrypted Data Transfer,785,12,Man-in-the-Middle,8,147,PoS,1.53,1
+D0646,Device,Data Transmission,1236,11,DDoS,2,288,PoA,0.72,1
+D0647,Network,Data Transmission,388,36,Unauthorized Access,2,280,PoS,1.3,0
+D0648,Application,Encrypted Data Transfer,1437,26,Tampering,9,258,PoA,1.21,1
+D0649,Device,Data Transmission,559,36,Tampering,6,227,PoS,1.38,0
+D0650,Device,Encrypted Data Transfer,346,35,Unauthorized Access,3,162,PoW,1.85,0
+D0651,Network,Data Transmission,1481,48,DDoS,2,130,PoA,0.53,1
+D0652,Device,Data Transmission,1227,49,Unauthorized Access,8,153,PBFT,1.84,1
+D0653,Device,Smart Contract Execution,1392,17,DDoS,10,263,PBFT,1.85,1
+D0654,Device,Encrypted Data Transfer,588,46,Unauthorized Access,4,151,PBFT,1.11,1
+D0655,Device,Authentication,995,33,Unauthorized Access,4,247,PoA,1.54,0
+D0656,Application,Encrypted Data Transfer,987,25,Unauthorized Access,9,269,PBFT,0.96,1
+D0657,Network,Smart Contract Execution,70,25,DDoS,1,114,PBFT,1.04,1
+D0658,Application,Authentication,299,30,Man-in-the-Middle,4,279,PoS,0.71,1
+D0659,Application,Encrypted Data Transfer,332,27,Unauthorized Access,3,121,PoS,0.7,0
+D0660,Network,Encrypted Data Transfer,1390,9,Man-in-the-Middle,9,145,PBFT,1.37,1
+D0661,Device,Smart Contract Execution,742,6,Man-in-the-Middle,5,158,PBFT,1.27,1
+D0662,Network,Smart Contract Execution,1451,38,Eavesdropping,1,102,PoW,1.93,0
+D0663,Application,Smart Contract Execution,471,20,Unauthorized Access,8,146,PoA,1.61,1
+D0664,Network,Authentication,277,27,DDoS,8,118,PoW,1.22,1
+D0665,Network,Authentication,479,25,Unauthorized Access,10,154,PoW,1.53,1
+D0666,Device,Encrypted Data Transfer,1350,43,Unauthorized Access,10,282,PoS,1.52,1
+D0667,Application,Encrypted Data Transfer,1139,9,Man-in-the-Middle,6,289,PoW,0.74,1
+D0668,Application,Data Transmission,235,38,Unauthorized Access,9,127,PoA,1.13,0
+D0669,Device,Authentication,171,10,Tampering,3,123,PoS,1.44,0
+D0670,Device,Authentication,1179,9,Tampering,3,125,PBFT,1.25,1
+D0671,Network,Smart Contract Execution,1224,8,Eavesdropping,6,240,PoW,0.87,1
+D0672,Application,Smart Contract Execution,81,22,Man-in-the-Middle,3,172,PBFT,1.61,1
+D0673,Device,Smart Contract Execution,1139,43,DDoS,1,207,PBFT,1.9,0
+D0674,Device,Encrypted Data Transfer,1195,29,Eavesdropping,3,174,PoS,0.96,1
+D0675,Network,Encrypted Data Transfer,1293,46,Tampering,6,197,PoS,1.81,1
+D0676,Device,Data Transmission,1020,8,Tampering,4,150,PoA,1.09,0
+D0677,Application,Smart Contract Execution,184,39,Tampering,2,132,PoW,0.58,1
+D0678,Application,Smart Contract Execution,226,40,DDoS,2,270,PoA,1.33,1
+D0679,Network,Smart Contract Execution,305,43,Eavesdropping,8,253,PoS,0.92,1
+D0680,Application,Smart Contract Execution,980,37,Tampering,5,191,PoA,0.52,1
+D0681,Device,Smart Contract Execution,880,24,DDoS,3,279,PoA,1.34,1
+D0682,Network,Encrypted Data Transfer,1249,12,Man-in-the-Middle,1,136,PoS,0.51,0
+D0683,Device,Smart Contract Execution,1087,9,Man-in-the-Middle,3,146,PBFT,1.45,0
+D0684,Device,Smart Contract Execution,332,6,Eavesdropping,9,164,PoW,1.42,1
+D0685,Application,Authentication,248,44,Man-in-the-Middle,8,165,PBFT,0.5,1
+D0686,Device,Authentication,825,37,Man-in-the-Middle,6,124,PoS,1.19,1
+D0687,Network,Data Transmission,500,30,Tampering,7,167,PBFT,1.75,1
+D0688,Device,Data Transmission,1433,38,DDoS,3,160,PoW,0.61,1
+D0689,Device,Authentication,813,49,Unauthorized Access,3,222,PoW,1.37,1
+D0690,Network,Data Transmission,201,13,Eavesdropping,5,297,PBFT,1.44,1
+D0691,Application,Smart Contract Execution,1377,5,Unauthorized Access,6,117,PBFT,1.16,1
+D0692,Network,Authentication,1461,17,Eavesdropping,7,133,PoA,1.4,0
+D0693,Device,Encrypted Data Transfer,141,9,Eavesdropping,3,103,PBFT,1.53,0
+D0694,Network,Encrypted Data Transfer,420,27,Eavesdropping,2,184,PBFT,0.56,0
+D0695,Application,Authentication,117,14,DDoS,9,243,PoW,0.67,1
+D0696,Application,Encrypted Data Transfer,1496,9,Eavesdropping,5,133,PoA,1.21,1
+D0697,Application,Encrypted Data Transfer,913,22,DDoS,5,120,PoA,1.57,1
+D0698,Application,Authentication,1370,12,Unauthorized Access,8,159,PoW,1.09,1
+D0699,Network,Encrypted Data Transfer,876,20,Man-in-the-Middle,6,219,PoA,1.11,1
+D0700,Network,Authentication,411,20,Unauthorized Access,8,107,PoS,1.65,1
+D0701,Device,Encrypted Data Transfer,195,22,Unauthorized Access,4,219,PBFT,1.98,1
+D0702,Application,Encrypted Data Transfer,189,45,Man-in-the-Middle,9,138,PoS,0.55,1
+D0703,Application,Smart Contract Execution,1277,29,Eavesdropping,10,195,PoW,1.51,1
+D0704,Network,Smart Contract Execution,1386,26,DDoS,2,130,PoA,1.28,1
+D0705,Application,Smart Contract Execution,520,19,Man-in-the-Middle,4,155,PoA,0.66,1
+D0706,Network,Authentication,66,15,Eavesdropping,3,201,PoW,0.88,1
+D0707,Network,Data Transmission,1351,6,Eavesdropping,8,103,PoA,1.88,1
+D0708,Device,Encrypted Data Transfer,1116,27,Eavesdropping,5,120,PoS,1.12,1
+D0709,Application,Data Transmission,976,17,Eavesdropping,5,241,PoW,0.75,0
+D0710,Device,Encrypted Data Transfer,991,27,Eavesdropping,5,105,PoW,0.9,0
+D0711,Device,Data Transmission,680,26,Tampering,4,235,PBFT,0.96,0
+D0712,Application,Encrypted Data Transfer,1103,32,Unauthorized Access,6,109,PBFT,0.65,1
+D0713,Network,Authentication,1114,34,Man-in-the-Middle,9,145,PoA,1.2,1
+D0714,Device,Smart Contract Execution,1344,9,Tampering,6,262,PBFT,1.14,1
+D0715,Network,Data Transmission,1041,24,Tampering,6,259,PoW,1.72,1
+D0716,Device,Authentication,717,23,Tampering,3,136,PBFT,1.56,0
+D0717,Network,Data Transmission,1398,9,Eavesdropping,6,191,PoW,1.86,1
+D0718,Device,Encrypted Data Transfer,371,34,DDoS,1,108,PoS,1.41,1
+D0719,Network,Smart Contract Execution,952,23,Eavesdropping,9,287,PoA,1.74,0
+D0720,Device,Encrypted Data Transfer,990,14,Man-in-the-Middle,1,274,PBFT,1.23,1
+D0721,Network,Smart Contract Execution,792,29,DDoS,4,283,PoA,1.95,1
+D0722,Application,Authentication,511,28,Unauthorized Access,9,117,PoS,1.15,0
+D0723,Device,Authentication,1232,30,Eavesdropping,4,262,PoS,1.66,0
+D0724,Device,Encrypted Data Transfer,280,41,DDoS,1,115,PoA,1.07,1
+D0725,Application,Data Transmission,1185,17,Tampering,9,281,PoS,0.54,0
+D0726,Network,Authentication,570,23,DDoS,9,243,PoA,1.86,1
+D0727,Application,Encrypted Data Transfer,477,23,Eavesdropping,4,255,PoA,1.28,1
+D0728,Application,Authentication,356,20,Eavesdropping,5,103,PoS,0.65,0
+D0729,Application,Data Transmission,387,45,Eavesdropping,4,196,PoA,0.62,1
+D0730,Application,Authentication,65,33,DDoS,9,181,PoW,1.46,1
+D0731,Device,Encrypted Data Transfer,758,17,Unauthorized Access,6,122,PoA,1.28,0
+D0732,Device,Data Transmission,431,47,Unauthorized Access,3,125,PoW,1.85,1
+D0733,Device,Authentication,245,33,DDoS,9,106,PoW,1.71,1
+D0734,Device,Encrypted Data Transfer,246,42,Unauthorized Access,8,154,PBFT,0.83,0
+D0735,Network,Smart Contract Execution,1342,34,Tampering,10,138,PBFT,1.91,1
+D0736,Network,Data Transmission,348,12,Unauthorized Access,1,169,PBFT,0.57,1
+D0737,Application,Authentication,1423,44,DDoS,8,280,PoW,1.4,0
+D0738,Network,Encrypted Data Transfer,283,45,Unauthorized Access,1,298,PoA,0.71,0
+D0739,Network,Data Transmission,390,41,DDoS,4,173,PoW,1.1,1
+D0740,Application,Smart Contract Execution,818,13,DDoS,6,152,PoW,1.63,0
+D0741,Network,Authentication,197,20,Tampering,2,278,PBFT,1.25,1
+D0742,Device,Authentication,905,28,DDoS,2,175,PoA,1.44,1
+D0743,Device,Encrypted Data Transfer,912,29,Man-in-the-Middle,2,116,PoS,1.26,1
+D0744,Network,Data Transmission,1001,24,Unauthorized Access,9,100,PoW,0.83,1
+D0745,Network,Authentication,892,22,Man-in-the-Middle,6,226,PoS,1.74,1
+D0746,Application,Smart Contract Execution,1480,12,DDoS,4,236,PBFT,1.14,0
+D0747,Application,Authentication,527,19,Eavesdropping,5,246,PoW,1.65,1
+D0748,Network,Authentication,548,30,Unauthorized Access,10,293,PoS,1.76,1
+D0749,Device,Smart Contract Execution,1022,24,Man-in-the-Middle,8,245,PoS,0.79,1
+D0750,Device,Authentication,1389,10,Tampering,7,118,PoW,0.94,1
+D0751,Device,Data Transmission,987,25,Man-in-the-Middle,10,183,PoW,1.13,0
+D0752,Device,Data Transmission,557,37,DDoS,7,199,PBFT,1.94,1
+D0753,Network,Encrypted Data Transfer,451,43,DDoS,4,104,PoS,1.41,1
+D0754,Network,Smart Contract Execution,610,30,Tampering,6,175,PBFT,0.92,1
+D0755,Application,Smart Contract Execution,874,14,Unauthorized Access,1,172,PoS,1.63,0
+D0756,Device,Smart Contract Execution,1327,5,Man-in-the-Middle,8,179,PoS,1.76,1
+D0757,Network,Authentication,876,45,Tampering,6,142,PBFT,1.24,0
+D0758,Network,Authentication,1118,24,Eavesdropping,4,103,PoW,1.66,1
+D0759,Application,Data Transmission,182,29,Unauthorized Access,8,195,PoA,1.18,1
+D0760,Device,Smart Contract Execution,716,28,Eavesdropping,6,140,PoA,1.88,1
+D0761,Device,Encrypted Data Transfer,129,15,Unauthorized Access,4,275,PoW,0.55,1
+D0762,Device,Smart Contract Execution,1030,35,Man-in-the-Middle,10,276,PBFT,0.65,0
+D0763,Network,Encrypted Data Transfer,726,14,DDoS,2,246,PBFT,1.13,1
+D0764,Network,Data Transmission,211,29,Tampering,6,266,PBFT,1.55,0
+D0765,Application,Smart Contract Execution,642,21,Unauthorized Access,2,145,PoS,1.64,1
+D0766,Network,Encrypted Data Transfer,204,24,Tampering,7,237,PoA,0.9,0
+D0767,Application,Smart Contract Execution,1314,25,Tampering,5,185,PoS,1.96,0
+D0768,Network,Smart Contract Execution,468,14,Eavesdropping,1,134,PoW,0.62,0
+D0769,Device,Smart Contract Execution,652,47,Tampering,5,202,PoA,1.57,1
+D0770,Application,Smart Contract Execution,1400,23,Eavesdropping,7,119,PoA,1.86,0
+D0771,Application,Encrypted Data Transfer,1000,6,Man-in-the-Middle,4,250,PBFT,1.46,1
+D0772,Application,Authentication,203,19,Eavesdropping,10,242,PoW,0.72,1
+D0773,Device,Authentication,630,44,DDoS,2,266,PoW,0.51,1
+D0774,Device,Authentication,734,29,Tampering,2,285,PBFT,0.7,1
+D0775,Network,Authentication,158,5,Man-in-the-Middle,3,278,PBFT,1.55,0
+D0776,Device,Encrypted Data Transfer,775,24,Unauthorized Access,3,164,PoA,1.42,1
+D0777,Network,Encrypted Data Transfer,973,16,Man-in-the-Middle,8,200,PoW,1.57,1
+D0778,Device,Encrypted Data Transfer,959,15,Eavesdropping,5,175,PoW,0.71,1
+D0779,Application,Authentication,798,46,Man-in-the-Middle,4,210,PoA,0.6,1
+D0780,Device,Data Transmission,1136,37,Man-in-the-Middle,1,149,PBFT,1.07,1
+D0781,Device,Data Transmission,1122,35,DDoS,10,173,PoW,1.24,1
+D0782,Application,Smart Contract Execution,892,9,Eavesdropping,10,270,PoS,1.75,1
+D0783,Network,Authentication,1365,21,Tampering,6,109,PoS,1.02,1
+D0784,Application,Smart Contract Execution,831,40,Man-in-the-Middle,10,197,PoA,0.57,1
+D0785,Network,Smart Contract Execution,323,26,Tampering,4,251,PoW,1.0,1
+D0786,Application,Data Transmission,81,33,Unauthorized Access,4,195,PoA,0.5,1
+D0787,Device,Authentication,1152,48,Man-in-the-Middle,1,121,PoS,1.98,1
+D0788,Application,Encrypted Data Transfer,214,24,Eavesdropping,4,118,PoS,1.37,1
+D0789,Device,Encrypted Data Transfer,1162,48,Unauthorized Access,7,285,PBFT,1.41,1
+D0790,Application,Smart Contract Execution,83,11,Tampering,7,190,PoA,0.86,1
+D0791,Network,Authentication,956,40,Eavesdropping,5,114,PoS,1.05,1
+D0792,Network,Data Transmission,514,36,Eavesdropping,5,140,PoA,1.92,1
+D0793,Application,Encrypted Data Transfer,816,16,Unauthorized Access,9,164,PBFT,1.95,0
+D0794,Network,Data Transmission,1078,15,Man-in-the-Middle,3,201,PoA,1.62,1
+D0795,Network,Smart Contract Execution,1018,17,Tampering,3,200,PoS,1.37,1
+D0796,Network,Data Transmission,1227,13,Unauthorized Access,6,273,PoS,2.0,1
+D0797,Application,Data Transmission,916,29,Tampering,7,289,PBFT,1.57,1
+D0798,Network,Encrypted Data Transfer,1348,43,Tampering,1,191,PBFT,0.58,1
+D0799,Device,Authentication,111,44,Unauthorized Access,4,251,PoW,1.35,0
+D0800,Network,Smart Contract Execution,236,9,DDoS,7,296,PoS,1.45,1
+D0801,Device,Authentication,1397,48,Unauthorized Access,2,176,PoW,1.65,1
+D0802,Application,Encrypted Data Transfer,1370,23,Man-in-the-Middle,5,136,PoW,0.52,1
+D0803,Device,Encrypted Data Transfer,109,44,Eavesdropping,2,171,PoA,0.72,1
+D0804,Device,Data Transmission,862,49,Eavesdropping,4,183,PoS,1.99,1
+D0805,Device,Smart Contract Execution,181,37,Man-in-the-Middle,2,291,PoW,1.44,1
+D0806,Network,Smart Contract Execution,50,30,Eavesdropping,7,220,PoS,1.2,0
+D0807,Application,Encrypted Data Transfer,210,7,Eavesdropping,9,233,PoW,1.1,1
+D0808,Application,Smart Contract Execution,1147,32,Eavesdropping,1,227,PoS,1.49,1
+D0809,Device,Smart Contract Execution,985,9,Unauthorized Access,1,101,PBFT,1.72,0
+D0810,Network,Data Transmission,351,18,Eavesdropping,6,265,PoS,0.5,1
+D0811,Device,Authentication,284,5,DDoS,5,218,PoS,1.32,1
+D0812,Application,Authentication,302,6,Man-in-the-Middle,1,148,PoW,0.94,0
+D0813,Application,Authentication,494,31,Unauthorized Access,4,241,PBFT,1.31,1
+D0814,Device,Data Transmission,1048,39,Eavesdropping,8,151,PoW,1.53,1
+D0815,Application,Data Transmission,718,41,Unauthorized Access,7,184,PoA,0.51,1
+D0816,Application,Smart Contract Execution,889,7,Unauthorized Access,5,277,PoA,1.47,1
+D0817,Application,Data Transmission,847,42,DDoS,3,153,PoS,1.51,0
+D0818,Application,Data Transmission,541,13,Tampering,9,149,PoW,0.97,1
+D0819,Device,Encrypted Data Transfer,1303,16,Unauthorized Access,5,207,PoW,1.7,0
+D0820,Device,Smart Contract Execution,1480,35,Unauthorized Access,4,133,PoS,0.62,1
+D0821,Device,Smart Contract Execution,273,6,Unauthorized Access,10,101,PoS,0.56,0
+D0822,Network,Authentication,600,25,Unauthorized Access,4,269,PBFT,0.76,1
+D0823,Device,Authentication,95,34,Unauthorized Access,2,138,PBFT,1.64,0
+D0824,Application,Smart Contract Execution,471,36,DDoS,7,162,PoW,1.41,1
+D0825,Application,Data Transmission,829,44,Eavesdropping,5,241,PoA,1.46,0
+D0826,Device,Authentication,734,36,Eavesdropping,8,236,PoW,1.31,1
+D0827,Network,Data Transmission,230,22,Tampering,8,272,PBFT,1.36,0
+D0828,Device,Data Transmission,417,45,Eavesdropping,7,245,PoA,1.67,1
+D0829,Device,Encrypted Data Transfer,376,35,Tampering,1,256,PoS,1.43,1
+D0830,Network,Data Transmission,1378,49,Man-in-the-Middle,7,278,PoA,1.78,1
+D0831,Application,Data Transmission,856,35,DDoS,3,134,PBFT,1.26,0
+D0832,Network,Data Transmission,826,39,Unauthorized Access,4,262,PoS,1.46,1
+D0833,Device,Smart Contract Execution,172,11,Man-in-the-Middle,10,142,PoS,0.82,1
+D0834,Network,Smart Contract Execution,306,10,Tampering,3,116,PBFT,0.87,1
+D0835,Application,Encrypted Data Transfer,1047,7,Tampering,1,156,PoW,0.78,0
+D0836,Device,Data Transmission,354,23,Man-in-the-Middle,7,181,PoS,1.92,1
+D0837,Application,Smart Contract Execution,377,29,Unauthorized Access,5,136,PBFT,0.53,1
+D0838,Network,Smart Contract Execution,363,23,Man-in-the-Middle,1,289,PBFT,1.71,0
+D0839,Application,Data Transmission,512,16,Tampering,9,142,PBFT,0.63,1
+D0840,Network,Authentication,1426,44,Man-in-the-Middle,8,119,PoS,1.38,1
+D0841,Network,Encrypted Data Transfer,751,16,Unauthorized Access,6,174,PoS,1.58,1
+D0842,Application,Smart Contract Execution,1294,18,Eavesdropping,5,184,PoW,1.41,0
+D0843,Device,Authentication,769,26,Man-in-the-Middle,1,187,PoW,1.68,1
+D0844,Device,Encrypted Data Transfer,1392,14,Unauthorized Access,10,228,PoS,0.96,1
+D0845,Application,Authentication,633,16,Eavesdropping,8,202,PoA,1.04,0
+D0846,Application,Data Transmission,494,38,Man-in-the-Middle,10,290,PoS,1.15,0
+D0847,Network,Smart Contract Execution,1064,44,Eavesdropping,5,160,PoS,1.41,1
+D0848,Application,Authentication,375,48,Tampering,4,198,PoA,1.7,0
+D0849,Device,Smart Contract Execution,785,29,Tampering,8,292,PoA,1.6,0
+D0850,Application,Smart Contract Execution,319,15,Unauthorized Access,2,291,PoA,0.69,1
+D0851,Device,Smart Contract Execution,1071,49,DDoS,2,154,PoS,1.19,0
+D0852,Device,Data Transmission,506,18,Eavesdropping,10,124,PBFT,1.13,0
+D0853,Application,Data Transmission,667,14,Man-in-the-Middle,7,172,PBFT,1.65,1
+D0854,Network,Smart Contract Execution,1018,19,Tampering,9,232,PoW,1.64,1
+D0855,Network,Authentication,625,47,Tampering,10,199,PBFT,0.67,0
+D0856,Device,Encrypted Data Transfer,825,48,Unauthorized Access,9,261,PBFT,0.76,0
+D0857,Application,Smart Contract Execution,970,41,Eavesdropping,4,156,PoS,1.56,0
+D0858,Device,Authentication,830,36,Unauthorized Access,4,243,PoA,1.43,1
+D0859,Device,Authentication,693,25,Man-in-the-Middle,2,235,PoS,1.41,1
+D0860,Network,Authentication,640,35,DDoS,8,182,PBFT,1.21,1
+D0861,Device,Data Transmission,1402,22,Man-in-the-Middle,10,245,PoS,1.91,1
+D0862,Device,Data Transmission,377,39,Tampering,5,140,PoW,1.84,1
+D0863,Network,Authentication,546,46,DDoS,3,197,PoW,0.56,1
+D0864,Application,Authentication,417,12,Tampering,3,117,PoA,0.58,1
+D0865,Device,Authentication,716,10,Man-in-the-Middle,7,143,PoW,1.13,1
+D0866,Network,Authentication,834,25,DDoS,6,268,PoS,1.58,1
+D0867,Application,Smart Contract Execution,619,22,DDoS,5,146,PoS,2.0,1
+D0868,Device,Data Transmission,482,18,Unauthorized Access,4,232,PoA,1.96,1
+D0869,Application,Smart Contract Execution,680,15,Unauthorized Access,2,166,PoS,0.53,0
+D0870,Application,Authentication,696,9,Tampering,7,166,PoW,1.56,1
+D0871,Network,Encrypted Data Transfer,176,34,DDoS,2,159,PoW,1.21,0
+D0872,Device,Encrypted Data Transfer,695,15,Tampering,10,172,PoW,0.87,1
+D0873,Network,Authentication,310,25,Tampering,2,160,PoS,1.71,0
+D0874,Network,Smart Contract Execution,1070,18,Unauthorized Access,1,214,PoS,1.56,1
+D0875,Network,Smart Contract Execution,388,11,Eavesdropping,10,250,PoS,1.51,1
+D0876,Device,Data Transmission,1445,13,Man-in-the-Middle,6,293,PBFT,0.51,1
+D0877,Network,Authentication,697,39,Man-in-the-Middle,9,215,PBFT,1.42,1
+D0878,Application,Encrypted Data Transfer,156,25,Tampering,9,258,PoW,0.9,0
+D0879,Device,Smart Contract Execution,1290,19,Eavesdropping,7,234,PoS,1.8,1
+D0880,Application,Data Transmission,79,18,Tampering,1,165,PBFT,1.28,1
+D0881,Device,Data Transmission,1448,13,Eavesdropping,1,198,PoS,0.61,1
+D0882,Device,Data Transmission,966,12,Tampering,2,152,PoA,1.77,1
+D0883,Application,Data Transmission,1121,6,Unauthorized Access,8,211,PoS,0.99,1
+D0884,Application,Smart Contract Execution,878,10,Man-in-the-Middle,2,147,PoW,1.94,1
+D0885,Network,Encrypted Data Transfer,449,18,Man-in-the-Middle,4,268,PoA,1.62,1
+D0886,Application,Data Transmission,564,17,Man-in-the-Middle,4,147,PoS,1.14,1
+D0887,Network,Smart Contract Execution,343,10,Tampering,1,294,PoS,1.3,1
+D0888,Network,Data Transmission,497,11,Unauthorized Access,2,124,PBFT,1.42,1
+D0889,Network,Smart Contract Execution,791,46,Eavesdropping,8,128,PoA,0.9,1
+D0890,Device,Encrypted Data Transfer,475,33,Man-in-the-Middle,7,167,PBFT,0.69,0
+D0891,Application,Encrypted Data Transfer,1334,46,Eavesdropping,7,145,PoW,0.98,1
+D0892,Application,Authentication,1329,9,Unauthorized Access,4,206,PoS,0.54,1
+D0893,Application,Authentication,912,17,DDoS,4,123,PBFT,1.57,1
+D0894,Network,Data Transmission,573,13,Unauthorized Access,5,292,PoW,1.68,0
+D0895,Network,Data Transmission,652,18,Man-in-the-Middle,1,234,PBFT,1.4,0
+D0896,Application,Encrypted Data Transfer,1285,7,Tampering,3,257,PoW,1.84,1
+D0897,Device,Smart Contract Execution,362,37,Tampering,10,102,PBFT,1.16,0
+D0898,Device,Data Transmission,843,48,DDoS,2,275,PoA,1.29,1
+D0899,Network,Data Transmission,938,44,Tampering,10,229,PoS,1.21,1
+D0900,Network,Authentication,248,44,Tampering,5,110,PoW,0.72,1
+D0901,Application,Encrypted Data Transfer,579,42,Tampering,10,203,PBFT,1.94,1
+D0902,Application,Encrypted Data Transfer,1278,21,Unauthorized Access,6,148,PoW,1.82,1
+D0903,Network,Smart Contract Execution,67,21,DDoS,10,264,PoW,1.38,1
+D0904,Device,Smart Contract Execution,541,10,Unauthorized Access,1,234,PoA,1.8,1
+D0905,Application,Smart Contract Execution,1236,18,Man-in-the-Middle,2,230,PBFT,0.92,0
+D0906,Application,Data Transmission,1371,35,Eavesdropping,5,151,PoA,1.08,1
+D0907,Network,Authentication,545,18,Man-in-the-Middle,3,151,PBFT,1.14,1
+D0908,Application,Authentication,1349,25,Tampering,10,159,PBFT,0.6,0
+D0909,Device,Smart Contract Execution,841,23,Eavesdropping,5,132,PBFT,1.12,1
+D0910,Device,Authentication,265,31,Man-in-the-Middle,6,231,PoW,1.81,0
+D0911,Network,Authentication,232,16,Unauthorized Access,10,160,PBFT,1.41,0
+D0912,Device,Authentication,1075,39,Man-in-the-Middle,6,160,PoA,1.73,1
+D0913,Device,Data Transmission,561,41,Tampering,7,215,PoW,1.37,1
+D0914,Network,Encrypted Data Transfer,1143,48,Tampering,2,150,PoW,0.8,0
+D0915,Device,Smart Contract Execution,289,5,Tampering,8,137,PoA,1.91,1
+D0916,Network,Smart Contract Execution,983,36,Tampering,10,202,PBFT,0.64,1
+D0917,Network,Data Transmission,402,44,DDoS,4,106,PoW,0.68,1
+D0918,Device,Data Transmission,1388,20,Unauthorized Access,8,279,PoA,1.83,1
+D0919,Application,Encrypted Data Transfer,837,34,Eavesdropping,1,133,PBFT,1.69,1
+D0920,Network,Data Transmission,457,44,Man-in-the-Middle,5,270,PoA,1.11,1
+D0921,Network,Data Transmission,947,31,Eavesdropping,8,251,PBFT,0.54,1
+D0922,Network,Data Transmission,1142,7,Eavesdropping,3,194,PBFT,0.89,1
+D0923,Device,Encrypted Data Transfer,747,31,Man-in-the-Middle,2,201,PoW,1.97,1
+D0924,Application,Smart Contract Execution,765,42,Unauthorized Access,6,187,PoA,0.93,1
+D0925,Network,Smart Contract Execution,469,31,Unauthorized Access,1,201,PoA,1.84,1
+D0926,Device,Data Transmission,663,40,Man-in-the-Middle,7,257,PBFT,0.98,1
+D0927,Application,Encrypted Data Transfer,1268,16,Man-in-the-Middle,10,112,PoA,0.51,1
+D0928,Network,Data Transmission,1110,42,Eavesdropping,6,248,PoA,1.25,0
+D0929,Network,Encrypted Data Transfer,504,31,Tampering,5,229,PoW,1.66,1
+D0930,Device,Encrypted Data Transfer,553,32,Tampering,9,284,PoS,0.83,1
+D0931,Network,Authentication,871,34,DDoS,6,182,PoA,1.64,0
+D0932,Network,Authentication,370,38,Unauthorized Access,6,136,PBFT,0.97,1
+D0933,Network,Smart Contract Execution,1175,41,DDoS,1,190,PoA,0.54,0
+D0934,Application,Encrypted Data Transfer,549,37,Man-in-the-Middle,10,127,PBFT,1.8,1
+D0935,Device,Smart Contract Execution,1060,8,Unauthorized Access,3,154,PoS,1.47,0
+D0936,Network,Smart Contract Execution,424,27,Tampering,10,138,PoW,0.67,1
+D0937,Network,Authentication,339,8,Eavesdropping,3,254,PoA,0.96,1
+D0938,Application,Data Transmission,1396,34,Man-in-the-Middle,7,217,PoS,0.53,1
+D0939,Device,Authentication,1398,17,Eavesdropping,1,231,PoS,0.55,1
+D0940,Application,Smart Contract Execution,279,27,DDoS,7,128,PoA,1.95,0
+D0941,Device,Authentication,410,7,DDoS,8,257,PoW,0.81,1
+D0942,Application,Authentication,1184,41,Eavesdropping,9,282,PoA,1.35,1
+D0943,Device,Data Transmission,473,14,DDoS,9,290,PoA,0.85,1
+D0944,Device,Authentication,181,31,Eavesdropping,9,107,PoW,0.54,0
+D0945,Device,Smart Contract Execution,460,12,Man-in-the-Middle,6,225,PBFT,1.59,1
+D0946,Device,Authentication,1312,46,Tampering,6,241,PoW,0.74,1
+D0947,Device,Authentication,425,36,Tampering,1,248,PoA,0.85,1
+D0948,Application,Data Transmission,1088,39,Eavesdropping,7,156,PBFT,1.2,1
+D0949,Device,Authentication,624,17,Unauthorized Access,6,141,PBFT,0.97,1
+D0950,Network,Smart Contract Execution,748,22,Eavesdropping,1,222,PoS,1.03,1
+D0951,Network,Encrypted Data Transfer,143,13,DDoS,10,249,PoW,1.48,1
+D0952,Application,Authentication,96,8,Eavesdropping,5,127,PoS,0.74,1
+D0953,Network,Encrypted Data Transfer,721,45,DDoS,2,142,PoW,1.34,0
+D0954,Network,Authentication,122,6,Unauthorized Access,6,240,PoA,1.52,1
+D0955,Device,Smart Contract Execution,770,41,Eavesdropping,1,230,PoW,0.61,1
+D0956,Device,Data Transmission,1397,47,Tampering,3,254,PoS,0.91,1
+D0957,Application,Data Transmission,1157,44,Unauthorized Access,9,298,PoW,1.73,0
+D0958,Device,Encrypted Data Transfer,1348,17,Unauthorized Access,5,249,PoA,1.45,1
+D0959,Application,Encrypted Data Transfer,212,29,Eavesdropping,4,157,PoS,1.48,1
+D0960,Device,Smart Contract Execution,1470,46,Tampering,2,255,PoW,1.78,1
+D0961,Network,Smart Contract Execution,584,15,Tampering,10,130,PBFT,1.73,1
+D0962,Device,Smart Contract Execution,169,48,Unauthorized Access,10,202,PBFT,0.75,1
+D0963,Device,Authentication,211,48,Man-in-the-Middle,8,272,PBFT,1.17,1
+D0964,Application,Encrypted Data Transfer,822,14,Tampering,4,255,PoA,1.82,0
+D0965,Device,Encrypted Data Transfer,687,7,Unauthorized Access,4,231,PBFT,0.85,0
+D0966,Network,Data Transmission,346,46,DDoS,4,180,PoW,1.47,0
+D0967,Network,Data Transmission,717,23,Unauthorized Access,5,167,PBFT,1.67,1
+D0968,Application,Data Transmission,1240,19,Tampering,5,130,PoS,1.78,0
+D0969,Device,Authentication,1136,25,Eavesdropping,7,209,PBFT,1.93,1
+D0970,Device,Data Transmission,1180,10,Eavesdropping,6,117,PBFT,1.71,0
+D0971,Network,Data Transmission,665,18,DDoS,6,173,PBFT,1.48,1
+D0972,Application,Data Transmission,562,11,Man-in-the-Middle,1,230,PBFT,1.99,0
+D0973,Network,Smart Contract Execution,1340,49,Man-in-the-Middle,8,244,PBFT,1.12,1
+D0974,Application,Encrypted Data Transfer,1382,18,Tampering,5,224,PoA,0.68,1
+D0975,Network,Smart Contract Execution,279,21,Eavesdropping,10,221,PoA,1.72,1
+D0976,Network,Smart Contract Execution,353,44,Tampering,6,247,PoS,0.65,0
+D0977,Application,Authentication,562,17,Man-in-the-Middle,4,200,PBFT,1.88,1
+D0978,Device,Encrypted Data Transfer,71,21,Tampering,6,275,PoA,1.55,0
+D0979,Device,Encrypted Data Transfer,175,37,Unauthorized Access,8,160,PoA,1.14,1
+D0980,Device,Smart Contract Execution,708,41,DDoS,8,197,PoW,0.56,1
+D0981,Application,Data Transmission,456,49,Man-in-the-Middle,6,289,PoW,1.28,0
+D0982,Device,Authentication,1339,34,Man-in-the-Middle,1,216,PBFT,1.85,0
+D0983,Application,Authentication,350,36,Unauthorized Access,2,200,PBFT,0.62,1
+D0984,Network,Authentication,898,12,Unauthorized Access,4,148,PoS,1.22,0
+D0985,Network,Smart Contract Execution,382,13,Unauthorized Access,7,252,PoS,1.27,1
+D0986,Device,Authentication,1038,48,Man-in-the-Middle,3,269,PoW,1.83,1
+D0987,Application,Data Transmission,1424,33,Eavesdropping,10,270,PoW,1.48,1
+D0988,Network,Smart Contract Execution,129,25,Tampering,4,179,PoS,1.73,1
+D0989,Application,Authentication,806,10,Man-in-the-Middle,5,189,PoS,1.02,1
+D0990,Device,Encrypted Data Transfer,141,25,Tampering,7,139,PBFT,1.22,1
+D0991,Network,Smart Contract Execution,1463,5,Eavesdropping,3,130,PoS,1.29,0
+D0992,Network,Data Transmission,127,8,Tampering,9,298,PBFT,1.71,1
+D0993,Network,Authentication,1162,33,Eavesdropping,7,234,PoW,0.55,1
+D0994,Device,Smart Contract Execution,1198,17,DDoS,5,174,PoS,1.76,0
+D0995,Device,Smart Contract Execution,133,22,Eavesdropping,6,201,PBFT,0.56,1
+D0996,Network,Smart Contract Execution,469,34,Man-in-the-Middle,7,186,PoS,1.66,1
+D0997,Application,Authentication,1480,47,Unauthorized Access,5,261,PoA,0.88,1
+D0998,Network,Smart Contract Execution,878,44,Tampering,5,264,PoA,0.63,1
+D0999,Network,Smart Contract Execution,859,22,Tampering,9,282,PoW,1.93,1
+D1000,Application,Data Transmission,1044,12,Man-in-the-Middle,8,225,PoS,0.83,1
