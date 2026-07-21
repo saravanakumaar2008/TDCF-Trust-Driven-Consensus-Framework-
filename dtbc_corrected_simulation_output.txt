@@ -1,0 +1,43 @@
+=== Table 2/4/5/6 basis: Throughput & Confirmation Time, mean +/- 95% CI over 100 trials ===
+N= 50 DTBC  throughput= 1179.1+/-15.5  conf_time=  27.26+/-0.37ms
+N= 50 PoA   throughput= 1113.2+/-13.8  conf_time=  28.86+/-0.37ms
+N= 50 PoS   throughput= 1113.2+/-13.8  conf_time=  28.86+/-0.37ms
+N= 50 PBFT  throughput=  184.1+/- 0.4  conf_time= 173.86+/-0.37ms
+N=100 DTBC  throughput= 1174.7+/-10.1  conf_time=  27.29+/-0.23ms
+N=100 PoA   throughput= 1044.2+/- 7.9  conf_time=  30.69+/-0.23ms
+N=100 PoS   throughput= 1044.2+/- 7.9  conf_time=  30.69+/-0.23ms
+N=100 PBFT  throughput=   51.6+/- 0.0  conf_time= 620.69+/-0.23ms
+N=150 DTBC  throughput= 1164.4+/- 8.5  conf_time=  27.52+/-0.20ms
+N=150 PoA   throughput=  982.6+/- 6.0  conf_time=  32.60+/-0.20ms
+N=150 PoS   throughput=  982.6+/- 6.0  conf_time=  32.60+/-0.20ms
+N=150 PBFT  throughput=   23.4+/- 0.0  conf_time=1367.60+/-0.20ms
+N=200 DTBC  throughput= 1153.1+/- 6.5  conf_time=  27.77+/-0.16ms
+N=200 PoA   throughput=  926.1+/- 4.2  conf_time=  34.57+/-0.16ms
+N=200 PoS   throughput=  926.1+/- 4.2  conf_time=  34.57+/-0.16ms
+N=200 PBFT  throughput=   13.3+/- 0.0  conf_time=2414.57+/-0.16ms
+
+=== Table 2/3/8 basis: Adversarial resistance, mean +/- 95% CI over 100 trials (N=200) ===
+DTBC  resistance=90.69+/-0.22%
+PoA   resistance=87.50+/-0.00%
+PoS   resistance=87.50+/-0.00%
+PBFT  resistance=87.50+/-0.00%
+
+=== Decentralization index, mean +/- 95% CI over 100 trials (N=200) ===
+DTBC  decentralization=0.983+/-0.000
+PoA   decentralization=0.565+/-0.000
+PoS   decentralization=0.799+/-0.009
+PBFT  decentralization=1.000+/-0.000
+
+=== Scalability table basis (10-350 nodes), single deterministic run ===
+Protocol   DPoS   DTBC   PBFT    PoA    PoS
+Nodes                                      
+10        0.027  0.027  0.032  0.027  0.027
+20        0.027  0.027  0.049  0.027  0.027
+30        0.027  0.027  0.079  0.028  0.028
+50        0.027  0.027  0.173  0.028  0.028
+100       0.027  0.027  0.620  0.030  0.030
+150       0.027  0.027  1.367  0.032  0.032
+200       0.027  0.028  2.414  0.034  0.034
+250       0.027  0.028  3.761  0.036  0.036
+300       0.027  0.028  5.408  0.038  0.038
+350       0.027  0.029  7.355  0.040  0.040
